@@ -8,12 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="http://127.0.0.1:8000/adminlte/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://saludnaturaldelsur.com/adminlte/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   @yield('estilos')
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="http://127.0.0.1:8000/adminlte/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="https://saludnaturaldelsur.com/adminlte/dist/css/adminlte.min.css">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -28,7 +28,7 @@
         <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="http://127.0.0.1:8000/adminlte/index3.html" class="nav-link">Home</a>
+        <a href="https://saludnaturaldelsur.com/adminlte/index3.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
@@ -76,7 +76,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="http://127.0.0.1:8000/adminlte/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="https://saludnaturaldelsur.com/adminlte/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -92,7 +92,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="http://127.0.0.1:8000/adminlte/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="https://saludnaturaldelsur.com/adminlte/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -108,7 +108,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="http://127.0.0.1:8000/adminlte/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="https://saludnaturaldelsur.com/adminlte/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -163,8 +163,8 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="http://127.0.0.1:8000/adminlte/index3.html" class="brand-link">
-      <img src="http://127.0.0.1:8000/adminlte/dist/img/AdminLTELogo.png"
+    <a href="https://saludnaturaldelsur.com/adminlte/index3.html" class="brand-link">
+      <img src="https://saludnaturaldelsur.com/adminlte/dist/img/AdminLTELogo.png"
            alt="AdminLTE Logo"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
@@ -176,7 +176,7 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="http://127.0.0.1:8000/adminlte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="https://saludnaturaldelsur.com/adminlte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Alexander Pierce</a>
@@ -198,19 +198,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="http://127.0.0.1:8000/adminlte/index.html" class="nav-link">
+                <a href="https://saludnaturaldelsur.com/adminlte/index.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v1</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="http://127.0.0.1:8000/adminlte/index2.html" class="nav-link">
+                <a href="https://saludnaturaldelsur.com/adminlte/index2.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v2</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="http://127.0.0.1:8000/adminlte/index3.html" class="nav-link">
+                <a href="https://saludnaturaldelsur.com/adminlte/index3.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Dashboard v3</p>
                 </a>
@@ -717,7 +717,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="http://127.0.0.1:8000/adminlte/starter.html" class="nav-link">
+                <a href="https://saludnaturaldelsur.com/adminlte/starter.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Starter Page</p>
                 </a>
@@ -895,13 +895,13 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="http://127.0.0.1:8000/adminlte/plugins/jquery/jquery.min.js"></script>
+<script src="https://saludnaturaldelsur.com/adminlte/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="http://127.0.0.1:8000/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://saludnaturaldelsur.com/adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
-<script src="http://127.0.0.1:8000/adminlte/dist/js/adminlte.min.js"></script>
+<script src="https://saludnaturaldelsur.com/adminlte/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="http://127.0.0.1:8000/adminlte/dist/js/demo.js"></script>
+<script src="https://saludnaturaldelsur.com/adminlte/dist/js/demo.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 
 <script src="{{ asset('js/app_admin.js') }}" defer></script>
