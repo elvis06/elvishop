@@ -72,7 +72,7 @@
 					<a href="#">
 						<div class="d-flex flex-row align-items-center justify-content-start">
 							<div><img src="http://127.0.0.1:8000/asset/images/logo_1.png" alt=""></div>
-							<div>Jhonatan Shop</div>
+							<div>Elvis Shop</div>
 						</div>
 					</a>	
 				</div>
@@ -120,7 +120,7 @@
 										<a href="#">
 											<div class="d-flex flex-row align-items-center justify-content-start">
 												<div class="footer_logo_icon"><img src="http://127.0.0.1:8000/asset/images/logo_2.png" alt=""></div>
-												<div>Jhonatan Shop</div>
+												<div>Elvis Shop</div>
 											</div>
 										</a>		
 									</div>

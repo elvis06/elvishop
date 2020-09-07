@@ -241,7 +241,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 offset-lg-3">
-						<div class="section_title text-center">Popular on Jhonatan Shop</div>
+						<div class="section_title text-center">Popular on Elvis Shop</div>
 					</div>
 				</div>
 				<div class="row page_nav_row">
