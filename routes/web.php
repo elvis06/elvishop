@@ -20,24 +20,10 @@ Route::get('/resultados', function () {
 });
 
 Route::get('/', function () {
-    /*$prod = new Product();
-    $prod->nombre = 'Producto 3';
-    $prod->slug = 'producto-3';
-    $prod->category_id = 1;
-    $prod->descripcion_corta = 'Producto 3';
-    $prod->descripcion_larga = 'Producto 3';
-    $prod->especificaciones = 'Producto 3';
-    $prod->datos_de_interes = 'Producto 3';
-    $prod->estado = 'Nuevo';
-    $prod->activo = 'Si';
-    $prod->sliderprincipal = 'No';
-    $prod->save();
-    return $prod;
-    /*$cat = Category::find(1)->products;
-    return $cat;*/
-
-    //return view('welcome');
-    return view('tienda.index');
+    $productos = Product::all();
+    $categorias = Category::all();
+    $slider = Product::where('sliderprincipal','Si');
+    return view('tienda.index', compact('productos','categorias','slider'));
 });
 
 Route::resource('/role', 'RoleController')->names('role');

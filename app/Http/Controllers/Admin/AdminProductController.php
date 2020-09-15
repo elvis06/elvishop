@@ -59,7 +59,7 @@ class AdminProductController extends Controller
             $imagenes = $request->file('imagenes');
             //dd($imagenes);
             foreach ($imagenes as $imagen) {
-                $nombre = time().'_'.$imagen->getClientOriginalName();
+                $nombre = $imagen->getClientOriginalName();
                 $ruta = public_path().'/imagenes';
                 $imagen->move($ruta, $nombre);
                 $urlimagenes[]['url'] = '/imagenes/'.$nombre;
@@ -153,10 +153,10 @@ class AdminProductController extends Controller
             $imagenes = $request->file('imagenes');
             //dd($imagenes);
             foreach ($imagenes as $imagen) {
-                $nombre = time().'_'.$imagen->getClientOriginalName();
-                $ruta = public_path().'/imagenes';
+                $nombre = $imagen->getClientOriginalName();
+                $ruta = public_path().'/imagenes/'.$id;
                 $imagen->move($ruta, $nombre);
-                $urlimagenes[]['url'] = '/imagenes/'.$nombre;
+                $urlimagenes[]['url'] = '/imagenes/'.$id.'/'.$nombre;
             }
             //return $urlimagenes;
         }

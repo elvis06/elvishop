@@ -519,14 +519,14 @@
                                             <!-- End Input -->
                                         </li>
                                         <!-- End Search -->
-                                        <li class="col d-none d-xl-block"><a href="../shop/compare.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
-                                        <li class="col d-none d-xl-block"><a href="../shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
-                                        <li class="col d-xl-none px-2 px-sm-3"><a href="../shop/my-account.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
+                                        <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
+                                        <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
+                                        <li class="col d-xl-none px-2 px-sm-3"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
                                         <li class="col pr-xl-0 px-2 px-sm-3">
                                             <a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
                                                 <i class="font-size-22 ec ec-shopping-bag"></i>
                                                 <span class="width-22 height-22 bg-dark position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12 text-white">2</span>
-                                                <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">$1785.00</span>
+                                                <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">Bs. 0.00</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -555,7 +555,7 @@
                                                     data-target="#basicsCollapseOne"
                                                     aria-expanded="true"
                                                     aria-controls="basicsCollapseOne">
-                                                    <span class="pl-1 text-gray-90">Categorías</span>
+                                                    <span class="pl-1 text-gray-90">Productos</span>
                                                     <span class="text-gray-90 ml-3">
                                                         <span class="ec ec-arrow-down-search"></span>
                                                     </span>
@@ -571,85 +571,53 @@
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Value of the Day</a>
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Capsulas Doradas</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Top 100 Offers</a>
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Meizi Evolution Soft Gel</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Value of the Day</a>
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Paizhisu STRONG Versión</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Top 100 Offers</a>
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Soft Gel</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Value of the Day</a>
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Viagra Vegetal</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Top 100 Offers</a>
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IV</a>
                                                                 </li>
-                                                                <!-- Nav Item -->
-                                                                <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                                                                    data-event="click"
-                                                                    data-animation-in="slideInUp"
-                                                                    data-animation-out="fadeOut"
+                                                                <li class="nav-item u-header__nav-item"
+                                                                    data-event="hover"
                                                                     data-position="left">
-                                                                    <a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">Accessories</a>
-
-                                                                    <!-- Home - Submenu -->
-                                                                    <ul id="homeSubMenu" class="hs-sub-menu u-header__sub-menu animated hs-position-left fadeOut" aria-labelledby="homeMegaMenu" style="min-width: 230px; display: none;">
-                                                                        <!-- Home-v1 -->
-                                                                        <li class="hs-has-sub-menu">
-                                                                            <a class="nav-link u-header__sub-menu-nav-link " href="index.html">Home-v1</a>
-                                                                        </li>
-                                                                        <!-- End Home-v1 -->
-
-                                                                        <!-- Home-v2 -->
-                                                                        <li class="hs-has-sub-menu">
-                                                                            <a class="nav-link u-header__sub-menu-nav-link " href="home-v2.html">Home-v2</a>
-                                                                        </li>
-                                                                        <!-- End Home-v2 -->
-
-                                                                    </ul>
-                                                                    <!-- End Home - Submenu -->
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IX</a>
                                                                 </li>
-                                                                <!-- End Nav Item -->
-                                                                <!-- Nav Item -->
-                                                                <li class="nav-item hs-has-sub-menu u-header__nav-item"
-                                                                    data-event="click"
-                                                                    data-animation-in="slideInUp"
-                                                                    data-animation-out="fadeOut"
+                                                                <li class="nav-item u-header__nav-item"
+                                                                    data-event="hover"
                                                                     data-position="left">
-                                                                    <a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">Accessories1</a>
-
-                                                                    <!-- Home - Submenu -->
-                                                                    <ul id="homeSubMenu" class="hs-sub-menu u-header__sub-menu animated hs-position-left fadeOut" aria-labelledby="homeMegaMenu" style="min-width: 230px; display: none;">
-                                                                        <!-- Home-v1 -->
-                                                                        <li class="hs-has-sub-menu">
-                                                                            <a class="nav-link u-header__sub-menu-nav-link " href="index.html">Home-v1</a>
-                                                                        </li>
-                                                                        <!-- End Home-v1 -->
-
-                                                                        <!-- Home-v2 -->
-                                                                        <li class="hs-has-sub-menu">
-                                                                            <a class="nav-link u-header__sub-menu-nav-link " href="home-v2.html">Home-v2</a>
-                                                                        </li>
-                                                                        <!-- End Home-v2 -->
-                                                                        
-                                                                    </ul>
-                                                                    <!-- End Home - Submenu -->
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman XL</a>
                                                                 </li>
-                                                                <!-- End Nav Item -->
+                                                                <li class="nav-item u-header__nav-item"
+                                                                    data-event="hover"
+                                                                    data-position="left">
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas African Black Ant</a>
+                                                                </li>
+                                                                <li class="nav-item u-header__nav-item"
+                                                                    data-event="hover"
+                                                                    data-position="left">
+                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Tabletas G-Female Oral</a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </nav>
@@ -673,7 +641,7 @@
                                             <!-- Select -->
                                             <select class="js-select selectpicker dropdown-select custom-search-categories-select"
                                                 data-style="btn height-40 text-gray-60 font-weight-normal border-0 rounded-0 bg-white px-5 py-2">
-                                                <option value="one" selected>Categorias</option>
+                                                <option value="one" selected>Todas las categorias</option>
                                                 <option value="two">Bajar de peso</option>
                                                 <option value="three">Estimuladores & Potenciadores</option>
                                                 <option value="four">Garnicia Cambogia</option>
@@ -726,7 +694,7 @@
                     <div class="col-wd-3 col-lg-4">
                         <div class="widget-column">
                             <div class="border-bottom border-color-1 mb-5">
-                                <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Featured Products</h3>
+                                <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Productos destacados</h3>
                             </div>
                             <ul class="list-unstyled products-group">
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
@@ -734,7 +702,7 @@
                                         <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img1.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Purple Wireless Headphones Solo 2 HD</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas African Black Ant</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">$1149.00</div>
                                         </div>
@@ -745,7 +713,7 @@
                                         <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img2.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Powerbank 1130 mAh Blue</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Paizhisu STRONG Versión</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">$210.00</div>
                                         </div>
@@ -756,7 +724,7 @@
                                         <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img3.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Nerocool EN52377 Dead Silence Gaming Cube Case</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Garcinia Cambogia Soft Gel</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">$180.00</div>
                                         </div>
@@ -767,7 +735,7 @@
                     </div>
                     <div class="col-wd-3 col-lg-4">
                         <div class="border-bottom border-color-1 mb-5">
-                            <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Onsale Products</h3>
+                            <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Productos en oferta</h3>
                         </div>
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
@@ -775,10 +743,10 @@
                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img4.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Yellow Earphones Waterproof with Bluetooth</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas maxman IV</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
-                                        <ins class="font-size-15 text-decoration-none">$110.00</ins>
-                                        <del class="font-size-12 text-gray-9 ml-2">$250.00</del>
+                                    <ins class="font-size-15 text-decoration-none">Bs. 160.00</ins>
+                                        <del class="font-size-12 text-gray-9 ml-2">Bs. 200.00</del>
                                     </div>
                                 </div>
                             </li>
@@ -787,10 +755,10 @@
                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img5.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Camera C430W 4k Waterproof</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas maxman XL</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
-                                        <ins class="font-size-15 text-decoration-none">$899.00</ins>
-                                        <del class="font-size-12 text-gray-9 ml-2">$1200.00</del>
+                                        <ins class="font-size-15 text-decoration-none">Bs. 180.00</ins>
+                                        <del class="font-size-12 text-gray-9 ml-2">Bs. 210.00</del>
                                     </div>
                                 </div>
                             </li>
@@ -799,10 +767,10 @@
                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartphone 6S 32GB LTE</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Garcinia Cambogia Capsulas Doradas</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
-                                        <ins class="font-size-15 text-decoration-none">$2100.00</ins>
-                                        <del class="font-size-12 text-gray-9 ml-2">$3299.00</del>
+                                    <ins class="font-size-15 text-decoration-none">Bs. 280.00</ins>
+                                        <del class="font-size-12 text-gray-9 ml-2">Bs. 300.00</del>
                                     </div>
                                 </div>
                             </li>
@@ -810,7 +778,7 @@
                     </div>
                     <div class="col-wd-3 col-lg-4">
                         <div class="border-bottom border-color-1 mb-5">
-                            <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Top Rated Products</h3>
+                            <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Mejor valorados</h3>
                         </div>
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
@@ -818,7 +786,7 @@
                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img7.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Smartwatch 2.0 LTE Wifi Waterproof</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas maxman IX</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -827,7 +795,7 @@
                                         <small class="fas fa-star"></small>
                                     </div>
                                     <div class="prodcut-price mt-auto">
-                                        <div class="font-size-15">$725.00</div>
+                                        <div class="font-size-15">Bs. 180.00</div>
                                     </div>
                                 </div>
                             </li>
@@ -836,7 +804,7 @@
                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img8.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">22Mps Camera 6200U with 500GB SDcard</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Viagra Vegetal</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -845,7 +813,7 @@
                                         <small class="far fa-star text-muted"></small>
                                     </div>
                                     <div class="prodcut-price mt-auto">
-                                        <div class="font-size-15">$2999.00</div>
+                                        <div class="font-size-15">Bs. 180.00</div>
                                     </div>
                                 </div>
                             </li>
@@ -854,7 +822,7 @@
                                     <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img9.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Full Color LaserJet Pro M452dn</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Meizi Evolution Soft Gel</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -863,7 +831,7 @@
                                         <small class="far fa-star text-muted"></small>
                                     </div>
                                     <div class="prodcut-price mt-auto">
-                                        <div class="font-size-15">$439.00</div>
+                                        <div class="font-size-15">Bs. 140.00</div>
                                     </div>
                                 </div>
                             </li>
