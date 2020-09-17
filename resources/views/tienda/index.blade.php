@@ -32,7 +32,7 @@
 										<sup class="">Bs.</sup>210.00<sup class=""></sup>
 									</div>
 								</div>
-								<a href="#" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+								<a href="garcinia-cambogia-capsulas-doradas" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
 									data-scs-animation-in="fadeInUp"
 									data-scs-animation-delay="400">
 									Comprar ahora
@@ -65,7 +65,7 @@
 										<sup class="">Bs.</sup>{{ $producto->precio_actual }}<sup class=""></sup>
 									</div>
 								</div>
-								<a href="#" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+								<a href="{{$producto->slug}}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
 									data-scs-animation-in="fadeInUp"
 									data-scs-animation-delay="400">
 									Comprar ahora
@@ -101,7 +101,7 @@
 		<div class="mb-5">
 			<div class="row">
 				<div class="col-md-6 mb-4 mb-xl-0 col-xl-3">
-					<a href="../shop/shop.html" class="d-black text-gray-90">
+					<a href="capsulas-maxman-xl" class="d-black text-gray-90">
 						<div class="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
 							<div class="col-6 col-xl-5 col-wd-6 pr-0">
 								<img class="img-fluid" src="../../assets/img/190X150/img1.png" alt="Image Description">
@@ -121,7 +121,7 @@
 					</a>
 				</div>
 				<div class="col-md-6 mb-4 mb-xl-0 col-xl-3">
-					<a href="../shop/shop.html" class="d-black text-gray-90">
+					<a href="capsulas-maxman-ix" class="d-black text-gray-90">
 						<div class="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
 							<div class="col-6 col-xl-5 col-wd-6 pr-0">
 								<img class="img-fluid" src="../../assets/img/190X150/img2.jpg" alt="Image Description">
@@ -141,14 +141,14 @@
 					</a>
 				</div>
 				<div class="col-md-6 mb-4 mb-xl-0 col-xl-3">
-					<a href="../shop/shop.html" class="d-black text-gray-90">
+					<a href="capsulas-african-black-ant" class="d-black text-gray-90">
 						<div class="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
 							<div class="col-6 col-xl-5 col-wd-6 pr-0">
 								<img class="img-fluid" src="../../assets/img/190X150/img3.jpg" alt="Image Description">
 							</div>
 							<div class="col-6 col-xl-7 col-wd-6">
 								<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-									CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+									CAPSULAS AFRICAN <strong>BLACK ANT</strong>
 								</div>
 								<div class="link text-gray-90 font-weight-bold font-size-15" href="#">
 									Comprar ahora
@@ -161,14 +161,14 @@
 					</a>
 				</div>
 				<div class="col-md-6 mb-4 mb-xl-0 col-xl-3">
-					<a href="../shop/shop.html" class="d-black text-gray-90">
+					<a href="tabletas-g-female-oral" class="d-black text-gray-90">
 						<div class="min-height-132 py-1 d-flex bg-gray-1 align-items-center">
 							<div class="col-6 col-xl-5 col-wd-6 pr-0">
 								<img class="img-fluid" src="../../assets/img/190X150/img4.png" alt="Image Description">
 							</div>
 							<div class="col-6 col-xl-7 col-wd-6">
 								<div class="mb-2 pb-1 font-size-18 font-weight-light text-ls-n1 text-lh-23">
-									CATCH BIG <strong>DEALS</strong> ON THE CAMERAS
+								TABLETAS G-FEMALE <strong>ORAL</strong>
 								</div>
 								<div class="link text-gray-90 font-weight-bold font-size-15" href="#">
 									Comprar ahora
@@ -212,15 +212,15 @@
 								<div class="product-item__inner p-md-3 row no-gutters">
 									<div class="col col-lg-auto product-media-left">
 										@if($producto->images->count()<=0)
-										<a href="#" class="max-width-150 d-block"><img class="img-fluid" src="../../assets/img/150X140/img1.jpg" alt="Image Description"></a>
+										<a href="{{$producto->slug}}" class="max-width-150 d-block"><img class="img-fluid" src="../../assets/img/150X140/img1.jpg" alt="Image Description"></a>
 										@else
-										<a href="#" class="max-width-150 d-block"><img class="img-fluid" src="/imagenes/{{$producto->id}}/150x140.jpg" alt="Image Description"></a>
+										<a href="{{$producto->slug}}" class="max-width-150 d-block"><img class="img-fluid" src="/imagenes/{{$producto->id}}/150x140.jpg" alt="Image Description"></a>
 										@endif
 									</div>
 									<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 										<div class="mb-4">
-											<div class="mb-2"><a href="#" class="font-size-12 text-gray-5">{{ $producto->category->nombre }}</a></div>
-											<h5 class="product-item__title"><a href="#" class="text-blue font-weight-bold">{{ $producto->nombre }}</a></h5>
+											<div class="mb-2"><a href="" class="font-size-12 text-gray-5">{{ $producto->category->nombre }}</a></div>
+											<h5 class="product-item__title"><a href="{{$producto->slug}}" class="text-blue font-weight-bold">{{ $producto->nombre }}</a></h5>
 										</div>
 										<div class="flex-center-between mb-3">
 											<div class="prodcut-price">
@@ -334,12 +334,12 @@
 								<div class="product-item__inner px-wd-4 p-2 p-md-3">
 									<div class="product-item__body pb-xl-2">
 										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">{{ $producto->category->nombre }}</a></div>
-										<h5 class="mb-1 product-item__title"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">{{ $producto->nombre }}</a></h5>
+										<h5 class="mb-1 product-item__title"><a href="{{$producto->slug}}" class="text-blue font-weight-bold">{{ $producto->nombre }}</a></h5>
 										<div class="mb-2">
 											@if($producto->images->count()<=0)
-											<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img1.jpg" alt="Image Description"></a>
+											<a href="{{$producto->slug}}" class="d-block text-center"><img class="img-fluid" src="../../assets/img/212X200/img1.jpg" alt="Image Description"></a>
 											@else
-											<a href="../shop/single-product-fullwidth.html" class="d-block text-center"><img class="img-fluid" src="/imagenes/{{$producto->id}}/212x200.jpg" alt="Image Description"></a>
+											<a href="{{$producto->slug}}" class="d-block text-center"><img class="img-fluid" src="/imagenes/{{$producto->id}}/212x200.jpg" alt="Image Description"></a>
 											@endif
 										</div>
 										<div class="flex-center-between mb-1">
@@ -347,7 +347,7 @@
 												<div class="text-gray-100">Bs. {{ $producto->precio_actual }}</div>
 											</div>
 											<div class="d-none d-xl-block prodcut-add-cart">
-												<a href="../shop/single-product-fullwidth.html" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+												<a href="#" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
 											</div>
 										</div>
 									</div>
@@ -392,62 +392,62 @@
 						}
 					}]'>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img1.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img2.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img3.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img4.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img5.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img6.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img7.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img8.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img9.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img10.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img11.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
-						<a href="#">
+						<a href="tel:+59178246463">
 							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img12.png" alt="Image Description">
 						</a>
 					</div>

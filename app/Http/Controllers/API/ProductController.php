@@ -31,4 +31,14 @@ class ProductController extends Controller
         $image->delete();
         return "eliminado id: ".$id." ".$eliminar;
     }
+    public function producto($slug)
+    {
+        $productos = Product::all();
+        $producto = Product::where('slug',$slug)->first();
+        if ($producto){
+            return view('tienda.producto', compact('producto','productos'));
+        }else{
+            return 'No existe el enlace';
+        }
+    }
 }

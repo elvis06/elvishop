@@ -32,6 +32,8 @@ Route::resource('/user', 'UserController',['except'=>['create','store']])->names
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+//Mis rutas
+Route::get('/{slug}', 'API\ProductController@producto')->name('producto');
 
 Route::get('/admin', function () {
     return view('plantilla.admin');
@@ -42,5 +44,4 @@ Route::resource('admin/product', 'Admin\AdminProductController')->names('admin.p
 
 Route::get('cancelar/{ruta}', function($ruta){
     return redirect()->route($ruta)->with('cancelar','Acción cancelada!');
-
 })->name('cancelar');

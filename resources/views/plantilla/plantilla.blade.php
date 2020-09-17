@@ -67,7 +67,7 @@
                                             data-unfold-animation-in="fadeInRight"
                                             data-unfold-animation-out="fadeOutRight"
                                             data-unfold-duration="500">
-                                            <i class="ec ec-user mr-1"></i> Registro <span class="text-gray-50">or</span> Inicio de sesión
+                                            <i class="ec ec-user mr-1"></i> Registro <span class="text-gray-50">|</span> Inicio de sesión
                                         </a>
                                         <!-- End Account Sidebar Toggle Button -->
                                     </li>
@@ -152,97 +152,25 @@
                                                         <ul id="headerSidebarList" class="u-header-collapse__nav">
                                                             <!-- Home Section -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarHomeCollapse" data-target="#headerSidebarHomeCollapse">
-                                                                    Home & Static Pages
-                                                                </a>
-
-                                                                <div id="headerSidebarHomeCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul id="headerSidebarHomeMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- Home - v1 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/index.html">Home v1</a></li>
-                                                                        <!-- End Home - v1 -->
-                                                                        <!-- Home - v2 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/home-v2.html">Home v2</a></li>
-                                                                        <!-- End Home - v2 -->
-                                                                        <!-- Home - v3 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/home-v3.html">Home v3</a></li>
-                                                                        <!-- End Home - v3 -->
-                                                                        <!-- Home - v3-full-color-bg -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/home-v3-full-color-bg.html">Home v3.1</a></li>
-                                                                        <!-- End Home - v3-full-color-bg -->
-                                                                        <!-- Home - v4 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/home-v4.html">Home v4</a></li>
-                                                                        <!-- End Home - v4 -->
-                                                                        <!-- Home - v5 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/home-v5.html">Home v5</a></li>
-                                                                        <!-- End Home - v5 -->
-                                                                        <!-- Home - v6 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/home-v6.html">Home v6</a></li>
-                                                                        <!-- End Home - v6 -->
-                                                                        <!-- Home - v7 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/home-v7.html">Home v7</a></li>
-                                                                        <!-- End Home - v7 -->
-                                                                        <!-- About -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/about.html">About</a></li>
-                                                                        <!-- End About -->
-                                                                        <!-- Contact v1 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/contact-v1.html">Contact v1</a></li>
-                                                                        <!-- End Contact v1 -->
-                                                                        <!-- Contact v2 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/contact-v2.html">Contact v2</a></li>
-                                                                        <!-- End Contact v2 -->
-                                                                        <!-- FAQ -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/faq.html">FAQ</a></li>
-                                                                        <!-- End FAQ -->
-                                                                        <!-- Store Directory -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/store-directory.html">Store Directory</a></li>
-                                                                        <!-- End Store Directory -->
-                                                                        <!-- Terms and Conditions -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/terms-and-conditions.html">Terms and Conditions</a></li>
-                                                                        <!-- End Terms and Conditions -->
-                                                                        <!-- 404 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../home/404.html">404</a></li>
-                                                                        <!-- End 404 -->
-                                                                    </ul>
-                                                                </div>
+                                                                <a class="u-header-collapse__nav-link" href="/">Inicio</a>
                                                             </li>
                                                             <!-- End Home Section -->
 
                                                             <!-- Shop Pages -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
                                                                 <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarPagesCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarPagesCollapse">
-                                                                    Shop Pages
+                                                                    Salud & Belleza
                                                                 </a>
 
                                                                 <div id="headerSidebarPagesCollapse" class="collapse" data-parent="#headerSidebarContent">
                                                                     <ul id="headerSidebarPagesMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- Shop Grid -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-grid.html">Shop Grid</a></li>
-                                                                        <!-- End Shop Grid -->
-
-                                                                        <!-- Shop Grid Extended -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-grid-extended.html">Shop Grid Extended</a></li>
-                                                                        <!-- End Shop Grid Extended -->
-
-                                                                        <!-- Shop List View -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-list-view.html">Shop List View</a></li>
-                                                                        <!-- End Shop List View -->
-
-                                                                        <!-- Shop List View Small -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-list-view-small.html">Shop List View Small</a></li>
-                                                                        <!-- End Shop List View Small -->
-
-                                                                        <!-- Shop Left Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                                        <!-- End Shop Left Sidebar -->
-
-                                                                        <!-- Shop Full width -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-full-width.html">Shop Full width</a></li>
-                                                                        <!-- End Shop Full width -->
-
-                                                                        <!-- Shop Right Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                                        <!-- End Shop Right Sidebar -->
+                                                                        <!-- Product -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="garcinia-cambogia-capsulas-doradas">Garcinia Cambogia Capsulas Doradas</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="paizhisu-strong-version">Paizhisu STRONG Versión</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="meizi-evolution-soft-gel">Meizi Evolution Soft Gel</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="garcinia-cambogia-soft-gel">Garcinia Cambogia Soft Gel</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="tabletas-g-female-oral">Tabletas G-Female Oral</a></li>
+                                                                        <!-- End Product -->
                                                                     </ul>
                                                                 </div>
                                                             </li>
@@ -251,26 +179,18 @@
                                                             <!-- Product Categories -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
                                                                 <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarBlogCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarBlogCollapse">
-                                                                    Product Categories
+                                                                    Salud Sexual
                                                                 </a>
 
                                                                 <div id="headerSidebarBlogCollapse" class="collapse" data-parent="#headerSidebarContent">
                                                                     <ul id="headerSidebarBlogMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- 4 Column Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/product-categories-4-column-sidebar.html">4 Column Sidebar</a></li>
-                                                                        <!-- End 4 Column Sidebar -->
-
-                                                                        <!-- 5 Column Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/product-categories-5-column-sidebar.html">5 Column Sidebar</a></li>
-                                                                        <!-- End 5 Column Sidebar -->
-
-                                                                        <!-- 6 Column Full width -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/product-categories-6-column-full-width.html">6 Column Full width</a></li>
-                                                                        <!-- End 6 Column Full width -->
-
-                                                                        <!-- 7 Column Full width -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/product-categories-7-column-full-width.html">7 Column Full width</a></li>
-                                                                        <!-- End 7 Column Full width -->
+                                                                        <!-- 4 Producto -->
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="capsulas-maxman-iv">Capsulas maxman IV</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="capsulas-maxman-ix">Capsulas maxman IX</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="capsulas-maxman-xl">Capsulas maxman XL</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="capsulas-african-black-ant">Capsulas African Black Ant</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="viagra-vegetal">Viagra Vegetal</a></li>
+                                                                        <!-- End 4 Producto -->
                                                                     </ul>
                                                                 </div>
                                                             </li>
@@ -279,21 +199,21 @@
                                                             <!-- Single Product Pages -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
                                                                 <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarShopCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarShopCollapse">
-                                                                    Single Product Pages
+                                                                    Empresa
                                                                 </a>
 
                                                                 <div id="headerSidebarShopCollapse" class="collapse" data-parent="#headerSidebarContent">
                                                                     <ul id="headerSidebarShopMenu" class="u-header-collapse__nav-list">
                                                                         <!-- Single Product Extended -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/single-product-extended.html">Single Product Extended</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Sobre Nosotros</a></li>
                                                                         <!-- End Single Product Extended -->
 
                                                                         <!-- Single Product Fullwidth -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/single-product-fullwidth.html">Single Product Fullwidth</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Nuestro Equipo</a></li>
                                                                         <!-- End Single Product Fullwidth -->
 
                                                                         <!-- Single Product Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/single-product-sidebar.html">Single Product Sidebar</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Trabaja con Nosotros</a></li>
                                                                         <!-- End Single Product Sidebar -->
                                                                     </ul>
                                                                 </div>
@@ -302,107 +222,9 @@
 
                                                             <!-- Ecommerce Pages -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarDemosCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarDemosCollapse">
-                                                                    Ecommerce Pages
-                                                                </a>
-
-                                                                <div id="headerSidebarDemosCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul id="headerSidebarDemosMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- Shop -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop.html">Shop</a></li>
-                                                                        <!-- End Shop -->
-
-                                                                        <!-- Cart -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/cart.html">Cart</a></li>
-                                                                        <!-- End Cart -->
-
-                                                                        <!-- Checkout -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/checkout.html">Checkout</a></li>
-                                                                        <!-- End Checkout -->
-
-                                                                        <!-- My Account -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/my-account.html">My Account</a></li>
-                                                                        <!-- End My Account -->
-
-                                                                        <!-- Track your Order -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/track-your-order.html">Track your Order</a></li>
-                                                                        <!-- End Track your Order -->
-
-                                                                        <!-- Compare -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/compare.html">Compare</a></li>
-                                                                        <!-- End Compare -->
-
-                                                                        <!-- wishlist -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/wishlist.html">wishlist</a></li>
-                                                                        <!-- End wishlist -->
-                                                                    </ul>
-                                                                </div>
+                                                                <a class="u-header-collapse__nav-link" href="#">Contáctenos</a>
                                                             </li>
                                                             <!-- End Ecommerce Pages -->
-
-                                                            <!-- Shop Columns -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebardocsCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebardocsCollapse">
-                                                                    Shop Columns
-                                                                </a>
-
-                                                                <div id="headerSidebardocsCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul id="headerSidebardocsMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- 7 Column Full width -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-7-columns-full-width.html">7 Column Full width</a></li>
-                                                                        <!-- End 7 Column Full width -->
-
-                                                                        <!-- 6 Column Full width -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-6-columns-full-width.html">6 Column Full width</a></li>
-                                                                        <!-- End 6 Column Full width -->
-
-                                                                        <!-- 5 Column Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-5-columns-sidebar.html">5 Column Sidebar</a></li>
-                                                                        <!-- End 5 Column Sidebar -->
-
-                                                                        <!-- 4 Column Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-4-columns-sidebar.html">4 Column Sidebar</a></li>
-                                                                        <!-- End 4 Column Sidebar -->
-
-                                                                        <!-- 3 Column Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../shop/shop-3-columns-sidebar.html">3 Column Sidebar</a></li>
-                                                                        <!-- End 3 Column Sidebar -->
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Shop Columns -->
-
-                                                            <!-- Blog Pages -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarblogsCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarblogsCollapse">
-                                                                    Blog Pages
-                                                                </a>
-
-                                                                <div id="headerSidebarblogsCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul id="headerSidebarblogsMenu" class="u-header-collapse__nav-list">
-                                                                        <!-- Blog v1 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../blog/blog-v1.html">Blog v1</a></li>
-                                                                        <!-- End Blog v1 -->
-
-                                                                        <!-- Blog v2 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../blog/blog-v2.html">Blog v2</a></li>
-                                                                        <!-- End Blog v2 -->
-
-                                                                        <!-- Blog v3 -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../blog/blog-v3.html">Blog v3</a></li>
-                                                                        <!-- End Blog v3 -->
-
-                                                                        <!-- Blog Full Width -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../blog/blog-full-width.html">Blog Full Width</a></li>
-                                                                        <!-- End Blog Full Width -->
-
-                                                                        <!-- Single Blog Post -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="../blog/single-blog-post.html">Single Blog Post</a></li>
-                                                                        <!-- End Single Blog Post -->
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Blog Pages -->
                                                         </ul>
                                                         <!-- End List -->
                                                     </div>
@@ -424,7 +246,7 @@
                                         <ul class="navbar-nav u-header__navbar-nav">
                                             <!-- Home -->
                                             <li class="nav-item u-header__nav-item">
-                                                <a class="nav-link u-header__nav-link" href="#">Inicio</a>
+                                                <a class="nav-link u-header__nav-link" href="/">Inicio</a>
                                             </li>
                                             <!-- End Home -->
 
@@ -451,7 +273,7 @@
                                                 <ul id="blogSubMenu" class="hs-sub-menu u-header__sub-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
                                                     <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sobre Nosotros</a></li>
                                                     <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Nuestro Equipo</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Trabaja con Cosotros</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Trabaja con Nosotros</a></li>
                                                 </ul>
                                                 <!-- End Submenu -->
                                             </li>
@@ -571,52 +393,52 @@
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Capsulas Doradas</a>
+                                                                    <a href="garcinia-cambogia-capsulas-doradas" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Capsulas Doradas</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Meizi Evolution Soft Gel</a>
+                                                                    <a href="meizi-evolution-soft-gel" class="nav-link u-header__nav-link font-weight-bold">Meizi Evolution Soft Gel</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Paizhisu STRONG Versión</a>
+                                                                    <a href="paizhisu-strong-version" class="nav-link u-header__nav-link font-weight-bold">Paizhisu STRONG Versión</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Soft Gel</a>
+                                                                    <a href="garcinia-cambogia-soft-gel" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Soft Gel</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Viagra Vegetal</a>
+                                                                    <a href="viagra-vegetal" class="nav-link u-header__nav-link font-weight-bold">Viagra Vegetal</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IV</a>
+                                                                    <a href="capsulas-maxman-iv" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IV</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IX</a>
+                                                                    <a href="capsulas-maxman-ix" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IX</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman XL</a>
+                                                                    <a href="capsulas-maxman-xl" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman XL</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Capsulas African Black Ant</a>
+                                                                    <a href="capsulas-african-black-ant" class="nav-link u-header__nav-link font-weight-bold">Capsulas African Black Ant</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="#" class="nav-link u-header__nav-link font-weight-bold">Tabletas G-Female Oral</a>
+                                                                    <a href="tabletas-g-female-oral" class="nav-link u-header__nav-link font-weight-bold">Tabletas G-Female Oral</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -669,7 +491,7 @@
                                             <a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
                                                 <i class="font-size-22 ec ec-shopping-bag"></i>
                                                 <span class="width-22 height-22 bg-dark position-absolute flex-content-center text-white rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-                                                <span class="font-weight-bold font-size-16 text-gray-90 ml-3">$1785.00</span>
+                                                <span class="font-weight-bold font-size-16 text-gray-90 ml-3">Bs0.00</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -699,21 +521,21 @@
                             <ul class="list-unstyled products-group">
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img1.jpg" alt="Image Description"></a>
+                                        <a href="capsulas-african-black-ant" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img1.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas African Black Ant</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="capsulas-african-black-ant" class="text-blue font-weight-bold">Capsulas African Black Ant</a></h5>
                                         <div class="prodcut-price mt-auto">
-                                            <div class="font-size-15">$1149.00</div>
+                                            <div class="font-size-15">Bs. 180.00</div>
                                         </div>
                                     </div>
                                 </li>
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img2.jpg" alt="Image Description"></a>
+                                        <a href="paizhisu-strong-version" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img2.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Paizhisu STRONG Versión</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="paizhisu-strong-version" class="text-blue font-weight-bold">Paizhisu STRONG Versión</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">$210.00</div>
                                         </div>
@@ -721,10 +543,10 @@
                                 </li>
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img3.jpg" alt="Image Description"></a>
+                                        <a href="garcinia-cambogia-soft-gel" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img3.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Garcinia Cambogia Soft Gel</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="garcinia-cambogia-soft-gel" class="text-blue font-weight-bold">Garcinia Cambogia Soft Gel</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">$180.00</div>
                                         </div>
@@ -740,10 +562,10 @@
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img4.jpg" alt="Image Description"></a>
+                                    <a href="capsulas-maxman-iv" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img4.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas maxman IV</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="capsulas-maxman-iv" class="text-blue font-weight-bold">Capsulas maxman IV</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
                                     <ins class="font-size-15 text-decoration-none">Bs. 160.00</ins>
                                         <del class="font-size-12 text-gray-9 ml-2">Bs. 200.00</del>
@@ -752,10 +574,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img5.jpg" alt="Image Description"></a>
+                                    <a href="capsulas-maxman-xl" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img5.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas maxman XL</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="capsulas-maxman-xl" class="text-blue font-weight-bold">Capsulas maxman XL</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
                                         <ins class="font-size-15 text-decoration-none">Bs. 180.00</ins>
                                         <del class="font-size-12 text-gray-9 ml-2">Bs. 210.00</del>
@@ -764,10 +586,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
+                                    <a href="garcinia-cambogia-capsulas-doradas" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Garcinia Cambogia Capsulas Doradas</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="garcinia-cambogia-capsulas-doradas" class="text-blue font-weight-bold">Garcinia Cambogia Capsulas Doradas</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
                                     <ins class="font-size-15 text-decoration-none">Bs. 280.00</ins>
                                         <del class="font-size-12 text-gray-9 ml-2">Bs. 300.00</del>
@@ -783,10 +605,10 @@
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img7.jpg" alt="Image Description"></a>
+                                    <a href="capsulas-maxman-ix" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img7.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Capsulas maxman IX</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="capsulas-maxman-ix" class="text-blue font-weight-bold">Capsulas maxman IX</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -801,10 +623,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img8.jpg" alt="Image Description"></a>
+                                    <a href="viagra-vegetal" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img8.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Viagra Vegetal</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="viagra-vegetal" class="text-blue font-weight-bold">Viagra Vegetal</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -819,10 +641,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="../shop/single-product-fullwidth.html" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img9.jpg" alt="Image Description"></a>
+                                    <a href="meizi-evolution-soft-gel" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img9.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="../shop/single-product-fullwidth.html" class="text-blue font-weight-bold">Meizi Evolution Soft Gel</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="meizi-evolution-soft-gel" class="text-blue font-weight-bold">Meizi Evolution Soft Gel</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -1274,6 +1096,7 @@
         <script src="{{ asset('assets/js/components/hs.fancybox.js') }}" defer></script>
         <script src="{{ asset('assets/js/components/hs.onscroll-animation.js') }}" defer></script>
         <script src="{{ asset('assets/js/components/hs.slick-carousel.js') }}" defer></script>
+        <script src="{{ asset('assets/js/components/hs.quantity-counter.js') }}" defer></script>
         <script src="{{ asset('assets/js/components/hs.show-animation.js') }}" defer></script>
         <script src="{{ asset('assets/js/components/hs.svg-injector.js') }}" defer></script>
         <script src="{{ asset('assets/js/components/hs.go-to.js') }}" defer></script>
@@ -1306,6 +1129,9 @@
                     }
                 });
 
+                // initialization of quantity counter
+                $.HSCore.components.HSQantityCounter.init('.js-quantity');
+                
                 // initialization of popups
                 $.HSCore.components.HSFancyBox.init('.js-fancybox');
 
