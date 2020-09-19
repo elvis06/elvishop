@@ -120,10 +120,10 @@
                                 <div class="col-md-7 mb-md-6 mb-lg-0">
                                     <div class="mb-2">
                                         <div class="border-bottom mb-3 pb-md-1 pb-3">
-                                            <a href="#" class="font-size-12 text-gray-5 mb-2 d-inline-block">{{ $producto->category->nombre }}</a>
+                                            <a href="{{ url($producto->category->slug) }}" class="font-size-12 text-gray-5 mb-2 d-inline-block">{{ $producto->category->nombre }}</a>
                                             <h2 class="font-size-25 text-lh-1dot2">{{ $producto->nombre }}</h2>
                                             <div class="d-md-flex align-items-center">
-                                                <a href="#" class="max-width-150 ml-n2 mb-2 mb-md-0 d-block"><img class="img-fluid" src="../../assets/img/200X60/img2.png" alt="Image Description"></a>
+                                                <a href="{{ url($producto->slug) }}" class="max-width-150 ml-n2 mb-2 mb-md-0 d-block"><img class="img-fluid" src="../../assets/img/200X60/img2.png" alt="Image Description"></a>
                                                 <div class="ml-md-3 text-gray-9 font-size-14">Disponibles: <span class="text-green font-weight-bold">{{ $producto->cantidad }} en stock</span></div>
                                             </div>
                                         </div>
@@ -157,7 +157,7 @@
                                                 <!-- End Quantity -->
                                             </div>
                                             <div class="ml-md-3">
-                                                <a href="#" class="btn px-5 btn-primary-dark transition-3d-hover"><i class="ec ec-add-to-cart mr-2 font-size-20"></i> Añadir al carrito</a>
+                                                <a href="" class="btn px-5 btn-primary-dark transition-3d-hover"><i class="ec ec-add-to-cart mr-2 font-size-20"></i> Añadir al carrito</a>
                                             </div>
                                         </div>
                                     </div>
@@ -456,17 +456,17 @@
                                     <div class="product-item__outer h-100">
                                         <div class="product-item__inner px-xl-4 p-3">
                                             <div class="product-item__body pb-xl-2">
-                                                <div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">{{$p->category->nombre}}</a></div>
-                                                <h5 class="mb-1 product-item__title"><a href="{{$p->slug}}" class="text-blue font-weight-bold">{{$p->nombre}}</a></h5>
+                                                <div class="mb-2"><a href="{{ url('categoria/'.$p->category->slug) }}" class="font-size-12 text-gray-5">{{$p->category->nombre}}</a></div>
+                                                <h5 class="mb-1 product-item__title"><a href="{{ url($p->slug) }}" class="text-blue font-weight-bold">{{$p->nombre}}</a></h5>
                                                 <div class="mb-2">
-                                                    <a href="{{$p->slug}}" class="d-block text-center"><img class="img-fluid" src="/imagenes/{{$p->id}}/212x200.jpg" alt="Image Description"></a>
+                                                    <a href="{{ url($p->slug) }}" class="d-block text-center"><img class="img-fluid" src="/imagenes/{{$p->id}}/212x200.jpg" alt="Image Description"></a>
                                                 </div>
                                                 <div class="flex-center-between mb-1">
                                                     <div class="prodcut-price">
                                                         <div class="text-gray-100">Bs. {{$p->precio_actual}}</div>
                                                     </div>
                                                     <div class="d-none d-xl-block prodcut-add-cart">
-                                                        <a href="{{$p->slug}}" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+                                                        <a href="{{ url($p->slug) }}" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -506,62 +506,62 @@
                                 }
                             }]'>
                             <div class="js-slide">
-                                <a href="#">
-                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img1.png" alt="Image Description">
-                                </a>
-                            </div>
-                            <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img2.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
+                                    <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img1.png" alt="Image Description">
+                                </a>
+                            </div>
+                            <div class="js-slide">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img3.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img4.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img5.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img6.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img7.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img8.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img9.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img10.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img11.png" alt="Image Description">
                                 </a>
                             </div>
                             <div class="js-slide">
-                                <a href="#">
+                                <a href="tel:+59178246463">
                                     <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img12.png" alt="Image Description">
                                 </a>
                             </div>

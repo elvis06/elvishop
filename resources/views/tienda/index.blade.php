@@ -32,7 +32,7 @@
 										<sup class="">Bs.</sup>210.00<sup class=""></sup>
 									</div>
 								</div>
-								<a href="garcinia-cambogia-capsulas-doradas" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+								<a href="{{ url('/garcinia-cambogia-capsulas-doradas') }}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
 									data-scs-animation-in="fadeInUp"
 									data-scs-animation-delay="400">
 									Comprar ahora
@@ -194,10 +194,10 @@
 						<a class="text-gray-90 btn btn-outline-primary border-width-2 rounded-pill py-1 px-4 font-size-15 text-lh-19 font-size-15-md" href="#">Top 10</a>
 					</li>
 					<li class="nav-item flex-shrink-0 flex-md-shrink-1">
-						<a class="nav-link text-gray-8" href="#">Salud & Belleza</a>
+						<a class="nav-link text-gray-8" href="{{ url('/categoria/salud-y-belleza') }}">Salud & Belleza</a>
 					</li>
 					<li class="nav-item flex-shrink-0 flex-md-shrink-1">
-						<a class="nav-link text-gray-8" href="#">Salud Sexual</a>
+						<a class="nav-link text-gray-8" href="{{ url('/categoria/salud-sexual') }}">Salud Sexual</a>
 					</li>
 				</ul>
 			</dv>
@@ -219,7 +219,7 @@
 									</div>
 									<div class="col product-item__body pl-2 pl-lg-3 mr-xl-2 mr-wd-1">
 										<div class="mb-4">
-											<div class="mb-2"><a href="" class="font-size-12 text-gray-5">{{ $producto->category->nombre }}</a></div>
+											<div class="mb-2"><a href="{{ url('/categoria/'.$producto->category->slug) }}" class="font-size-12 text-gray-5">{{ $producto->category->nombre }}</a></div>
 											<h5 class="product-item__title"><a href="{{$producto->slug}}" class="text-blue font-weight-bold">{{ $producto->nombre }}</a></h5>
 										</div>
 										<div class="flex-center-between mb-3">
@@ -276,13 +276,13 @@
 		<div class="mb-8">
 			<div class="row">
 				<div class="col-md-6 mb-3 mb-md-0">
-					<a href="../shop/shop.html">
+					<a href="{{ url('/categoria/salud-y-belleza') }}">
 						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
 					</a>
 				</div>
 				<div class="col-md-6">
-					<a href="../shop/shop.html">
-						<img class="img-fluid" src="../../assets/img/690X150/img2.jpg" alt="Image Description">
+					<a href="{{ url('/categoria/salud-sexual') }}">
+						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
 					</a>
 				</div>
 			</div>
@@ -333,7 +333,7 @@
 							<div class="product-item__outer h-100">
 								<div class="product-item__inner px-wd-4 p-2 p-md-3">
 									<div class="product-item__body pb-xl-2">
-										<div class="mb-2"><a href="../shop/product-categories-7-column-full-width.html" class="font-size-12 text-gray-5">{{ $producto->category->nombre }}</a></div>
+										<div class="mb-2"><a href="{{ url('/categoria/'.$producto->category->slug) }}" class="font-size-12 text-gray-5">{{ $producto->category->nombre }}</a></div>
 										<h5 class="mb-1 product-item__title"><a href="{{$producto->slug}}" class="text-blue font-weight-bold">{{ $producto->nombre }}</a></h5>
 										<div class="mb-2">
 											@if($producto->images->count()<=0)
@@ -349,12 +349,6 @@
 											<div class="d-none d-xl-block prodcut-add-cart">
 												<a href="#" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
 											</div>
-										</div>
-									</div>
-									<div class="product-item__footer">
-										<div class="border-top pt-2 flex-center-between flex-wrap">
-											<a href="../shop/compare.html" class="text-gray-6 font-size-13"><i class="ec ec-compare mr-1 font-size-15"></i> Compare</a>
-											<a href="../shop/wishlist.html" class="text-gray-6 font-size-13"><i class="ec ec-favorites mr-1 font-size-15"></i> Wishlist</a>
 										</div>
 									</div>
 								</div>
@@ -393,12 +387,12 @@
 					}]'>
 					<div class="js-slide">
 						<a href="tel:+59178246463">
-							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img1.png" alt="Image Description">
+							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img2.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">
 						<a href="tel:+59178246463">
-							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img2.png" alt="Image Description">
+							<img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img1.png" alt="Image Description">
 						</a>
 					</div>
 					<div class="js-slide">

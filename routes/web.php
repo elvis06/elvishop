@@ -33,7 +33,21 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 //Mis rutas
+Route::get('/categoria/{slug}', 'API\CategoryController@categoria')->name('categoria');
 Route::get('/{slug}', 'API\ProductController@producto')->name('producto');
+Route::get('/sndsur/contactos', function () {
+    return view('tienda.contactos');
+});
+Route::get('/sndsur/sobre-nosotros', function () {
+    return view('tienda.sobre-nosotros');
+});
+Route::get('/sndsur/nuestro-equipo', function () {
+    return view('tienda.nuestro-equipo');
+});
+Route::get('/sndsur/trabaja-con-nosotros', function () {
+    return view('tienda.trabaja-con-nosotros');
+});
+
 
 Route::get('/admin', function () {
     return view('plantilla.admin');

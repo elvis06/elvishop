@@ -87,9 +87,9 @@
                                 <!-- Nav -->
                                 <nav class="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270">
                                     <!-- Logo -->
-                                    <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="../home/index.html" aria-label="electro">
+                                    <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="/" aria-label="sndsur">
                                     <div class="d-flex flex-row align-items-center justify-content-start">
-                                        <div><img src="assets/sndsur.png" alt=""></div>
+                                        <div><img src="{{ asset('assets/sndsur.png') }}" alt=""></div>
                                     </div>
                                     </a>
                                     <!-- End Logo -->
@@ -205,15 +205,15 @@
                                                                 <div id="headerSidebarShopCollapse" class="collapse" data-parent="#headerSidebarContent">
                                                                     <ul id="headerSidebarShopMenu" class="u-header-collapse__nav-list">
                                                                         <!-- Single Product Extended -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Sobre Nosotros</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="{{ url('/sndsur/sobre-nosotros') }}">Sobre Nosotros</a></li>
                                                                         <!-- End Single Product Extended -->
 
                                                                         <!-- Single Product Fullwidth -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Nuestro Equipo</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="{{ url('/sndsur/nuestro-equipo') }}">Nuestro Equipo</a></li>
                                                                         <!-- End Single Product Fullwidth -->
 
                                                                         <!-- Single Product Sidebar -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Trabaja con Nosotros</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="{{ url('/sndsur/trabaja-con-nosotros') }}">Trabaja con Nosotros</a></li>
                                                                         <!-- End Single Product Sidebar -->
                                                                     </ul>
                                                                 </div>
@@ -222,7 +222,7 @@
 
                                                             <!-- Ecommerce Pages -->
                                                             <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link" href="#">Contáctenos</a>
+                                                                <a class="u-header-collapse__nav-link" href="{{ url('/sndsur/contactos') }}">Contáctenos</a>
                                                             </li>
                                                             <!-- End Ecommerce Pages -->
                                                         </ul>
@@ -252,13 +252,13 @@
 
                                             <!-- About us -->
                                             <li class="nav-item u-header__nav-item">
-                                                <a class="nav-link u-header__nav-link" href="#">Salud & Belleza</a>
+                                                <a class="nav-link u-header__nav-link" href="{{ url('/categoria/salud-y-belleza') }}">Salud & Belleza</a>
                                             </li>
                                             <!-- End About us -->
 
                                             <!-- FAQs -->
                                             <li class="nav-item u-header__nav-item">
-                                                <a class="nav-link u-header__nav-link" href="#">Salud Sexual</a>
+                                                <a class="nav-link u-header__nav-link" href="{{ url('/categoria/salud-sexual') }}">Salud Sexual</a>
                                             </li>
                                             <!-- End FAQs -->
 
@@ -271,9 +271,9 @@
 
                                                 <!-- Blog - Submenu -->
                                                 <ul id="blogSubMenu" class="hs-sub-menu u-header__sub-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sobre Nosotros</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Nuestro Equipo</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Trabaja con Nosotros</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="{{ url('/sndsur/sobre-nosotros') }}">Sobre Nosotros</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="{{ url('/sndsur/nuestro-equipo') }}">Nuestro Equipo</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="{{ url('/sndsur/trabaja-con-nosotros') }}">Trabaja con Nosotros</a></li>
                                                 </ul>
                                                 <!-- End Submenu -->
                                             </li>
@@ -281,7 +281,7 @@
 
                                             <!-- Contact Us -->
                                             <li class="nav-item u-header__nav-item">
-                                                <a class="nav-link u-header__nav-link" href="contact-v1.html">Contáctenos</a>
+                                                <a class="nav-link u-header__nav-link" href="{{ url('/sndsur/contactos') }}">Contáctenos</a>
                                             </li>
                                             <!-- End Contact Us -->
                                         </ul>
@@ -773,12 +773,12 @@
                                     <h6 class="mb-3 font-weight-bold">Información</h6>
                                     <!-- List Group -->
                                     <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
-                                        <li><a class="list-group-item list-group-item-action" href="../shop/my-account.html">Sobre Nosotros</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="../shop/track-your-order.html">Medios de pago</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="../shop/wishlist.html">Condiciones de Uso</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="../home/terms-and-conditions.html">Nuestro equipo</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="../home/terms-and-conditions.html">Trabaja con Nosotros</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="../home/terms-and-conditions.html">Contáctanos</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/sobre-nosotros') }}">Sobre Nosotros</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="#">Medios de pago</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="#">Condiciones de Uso</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/nuestro-equipo') }}">Nuestro equipo</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/trabaja-con-nosotros') }}">Trabaja con Nosotros</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/contactos') }}">Contáctanos</a></li>
                                     </ul>
                                     <!-- End List Group -->
                                 </div>

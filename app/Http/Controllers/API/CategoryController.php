@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Category;
+use App\Product;
 
 class CategoryController extends Controller
 {
@@ -71,5 +72,15 @@ class CategoryController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function categoria($slug)
+    {
+        $productos = Product::all();
+        $categoria = Category::where('slug',$slug)->first();
+        if ($categoria){
+            return view('tienda.categoria', compact('categoria','productos'));
+        }else{
+            return 'No existe el enlace';
+        }
     }
 }
