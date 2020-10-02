@@ -823,8 +823,8 @@
                                     <div id="login" data-target-group="idForm">
                                         <!-- Title -->
                                         <header class="text-center mb-7">
-                                        <h2 class="h4 mb-0">Welcome Back!</h2>
-                                        <p>Login to manage your account.</p>
+                                        <h2 class="h4 mb-0">Bienvenido!</h2>
+                                        <p>Inicie sesión para administrar su cuenta.</p>
                                         </header>
                                         <!-- End Title -->
 
@@ -892,11 +892,11 @@
 
                                         <!-- Login Buttons -->
                                         <div class="d-flex">
-                                            <a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="#">
+                                            <a class="btn btn-block btn-sm btn-soft-facebook transition-3d-hover mr-1" href="{{url('login/facebook'}}">
                                               <span class="fab fa-facebook-square mr-1"></span>
                                               Facebook
                                             </a>
-                                            <a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="#">
+                                            <a class="btn btn-block btn-sm btn-soft-google transition-3d-hover ml-1 mt-0" href="{{url('login/google'}}">
                                               <span class="fab fa-google mr-1"></span>
                                               Google
                                             </a>

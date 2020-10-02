@@ -47,7 +47,8 @@ Route::get('/sndsur/nuestro-equipo', function () {
 Route::get('/sndsur/trabaja-con-nosotros', function () {
     return view('tienda.trabaja-con-nosotros');
 });
-
+Route::get('login/{driver}', 'Auth\LoginController@redirectToProvider');
+Route::get('login/{driver}/callback', 'Auth\LoginController@handleProviderCallback');
 
 Route::get('/admin', function () {
     return view('plantilla.admin');
