@@ -27,20 +27,20 @@
     <div class="col-12">
     <div class="card">
         <div class="card-header">
-        <h3 class="card-title">Selección de productos</h3>
+            <h3 class="card-title">Selección de productos</h3>
 
-        <div class="card-tools">
-            <form>
-                <div class="input-group input-group-sm" style="width: 150px;">
-                <input type="text" name="nombre" class="form-control float-right" 
-                placeholder="Buscar" value="{{ request()->get('nombre')}}">
+            <div class="card-tools">
+                <form>
+                    <div class="input-group input-group-sm" style="width: 150px;">
+                    <input type="text" name="nombre" class="form-control float-right" 
+                    placeholder="Buscar" value="{{ request()->get('nombre')}}">
 
-                <div class="input-group-append">
-                    <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
-                </div>
-                </div>
-            </form>
-        </div>
+                    <div class="input-group-append">
+                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                    </div>
+                    </div>
+                </form>
+            </div>
         </div>
         <!-- /.card-header -->
         <div class="card-body table-responsive p-0" style="height: 300px;">

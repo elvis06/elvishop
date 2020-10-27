@@ -6,6 +6,7 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use App\ElvisPermission\Traits\UserTrait;
+use App\SocialProfile;
 
 class User extends Authenticatable
 {
@@ -40,5 +41,9 @@ class User extends Authenticatable
 
     public function image(){
         return $this->morphOne('App\Image','imageable');
+    }
+
+    public function socialProfiles(){
+        return $this->hasMany(SocialProfile::class);
     }
 }
