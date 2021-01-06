@@ -13,10 +13,10 @@
 						<div class="js-slick-carousel u-slick"
 							data-autoplay="true"
 							data-speed="7000"
-							data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
+							data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-4 offset-xl-2 pl-2 pb-1">
 							<div class="js-slide bg-img-hero-center">
 						<div class="row min-height-420 py-7 py-md-0">
-							<div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
+							<div class="offset-xl-2 col-xl-4 col-6 mt-md-8">
 								<h1 class="font-size-64 text-lh-57 font-weight-light"
 									data-scs-animation-in="fadeInUp">
 									Garcinia Cambogia
@@ -32,7 +32,7 @@
 										<sup class="">Bs.</sup>210.00<sup class=""></sup>
 									</div>
 								</div>
-								<a href="{{ url('/garcinia-cambogia-capsulas-doradas') }}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+								<a href="{{ route('cart-add', 'garcinia-cambogia-capsulas-doradas') }}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
 									data-scs-animation-in="fadeInUp"
 									data-scs-animation-delay="400">
 									Comprar ahora
@@ -49,7 +49,7 @@
 					@if($producto->sliderprincipal == 'Si')
 					<div class="js-slide bg-img-hero-center" data-animation-delay="0">
 						<div class="row min-height-420 py-7 py-md-0">
-							<div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
+							<div class="offset-xl-2 col-xl-4 col-6 mt-md-8">
 								<h1 class="font-size-64 text-lh-57 font-weight-light"
 									data-scs-animation-in="fadeInUp">
 									{{ $producto->nombre }}
@@ -65,7 +65,7 @@
 										<sup class="">Bs.</sup>{{ $producto->precio_actual }}<sup class=""></sup>
 									</div>
 								</div>
-								<a href="{{$producto->slug}}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+								<a href="{{ route('cart-add', $producto->slug) }}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
 									data-scs-animation-in="fadeInUp"
 									data-scs-animation-delay="400">
 									Comprar ahora
@@ -227,7 +227,7 @@
 												<div class="text-gray-100">Bs. {{ $producto->precio_actual }}</div>
 											</div>
 											<div class="d-none d-xl-block prodcut-add-cart">
-												<a href="#" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+												<a href="{{ route('cart-add', $producto->slug) }}" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
 											</div>
 										</div>
 									</div>
@@ -347,7 +347,7 @@
 												<div class="text-gray-100">Bs. {{ $producto->precio_actual }}</div>
 											</div>
 											<div class="d-none d-xl-block prodcut-add-cart">
-												<a href="#" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
+												<a href="{{ route('cart-add', $producto->slug) }}" class="btn-add-cart btn-primary transition-3d-hover"><i class="ec ec-add-to-cart"></i></a>
 											</div>
 										</div>
 									</div>

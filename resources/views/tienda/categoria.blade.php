@@ -23,126 +23,18 @@
     <div class="container">
         <div class="row mb-8">
             <div class="d-none d-xl-block col-xl-3 col-wd-2gdot5">
-                <div class="mb-8 border border-width-2 border-color-3 borders-radius-6">
-                    <!-- List -->
-                    <ul id="sidebarNav" class="list-unstyled mb-0 sidebar-navbar">
-                        <li>
-                            <a class="dropdown-toggle dropdown-toggle-collapse dropdown-title" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav1Collapse" data-target="#sidebarNav1Collapse">
-                                Show All Categories
-                            </a>
-
-                            <div id="sidebarNav1Collapse" class="collapse" data-parent="#sidebarNav">
-                                <ul id="sidebarNav1" class="list-unstyled dropdown-list">
-                                    <!-- Menu List -->
-                                    <li><a class="dropdown-item" href="#">Accessories<span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Cameras & Photography<span class="text-gray-25 font-size-12 font-weight-normal"> (11)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Computer Components<span class="text-gray-25 font-size-12 font-weight-normal"> (22)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Gadgets<span class="text-gray-25 font-size-12 font-weight-normal"> (5)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Home Entertainment<span class="text-gray-25 font-size-12 font-weight-normal"> (7)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Laptops & Computers<span class="text-gray-25 font-size-12 font-weight-normal"> (42)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Printers & Ink<span class="text-gray-25 font-size-12 font-weight-normal"> (63)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Smart Phones & Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (11)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">TV & Audio<span class="text-gray-25 font-size-12 font-weight-normal"> (66)</span></a></li>
-                                    <li><a class="dropdown-item" href="#">Video Games & Consoles<span class="text-gray-25 font-size-12 font-weight-normal"> (31)</span></a></li>
-                                    <!-- End Menu List -->
-                                </ul>
-                            </div>
-                        </li>
-                        <li>
-                            <a class="dropdown-current active" href="#">Smart Phones & Tablets <span class="text-gray-25 font-size-12 font-weight-normal"> (50)</span></a>
-
-                            <ul class="list-unstyled dropdown-list">
-                                <!-- Menu List -->
-                                <li><a class="dropdown-item" href="#">Smartphones<span class="text-gray-25 font-size-12 font-weight-normal"> (30)</span></a></li>
-                                <li><a class="dropdown-item" href="#">Tablets<span class="text-gray-25 font-size-12 font-weight-normal"> (20)</span></a></li>
-                                <!-- End Menu List -->
-                            </ul>
-                        </li>
-                    </ul>
-                    <!-- End List -->
-                </div>
-                <div class="mb-6">
+                <aside class="mb-7">
                     <div class="border-bottom border-color-1 mb-5">
-                        <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Filters</h3>
+                        <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{ $categoria->nombre }}</h3>
                     </div>
-                    <div class="border-bottom pb-4 mb-4">
-                        <h4 class="font-size-14 mb-3 font-weight-bold">Brands</h4>
-
-                        <!-- Checkboxes -->
-                        <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                <label class="custom-control-label" for="brandAdidas">Adidas
-                                    <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="brandNewBalance">
-                                <label class="custom-control-label" for="brandNewBalance">New Balance
-                                    <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="brandNike">
-                                <label class="custom-control-label" for="brandNike">Nike
-                                    <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="brandFredPerry">
-                                <label class="custom-control-label" for="brandFredPerry">Fred Perry
-                                    <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                            <div class="custom-control custom-checkbox">
-                                <input type="checkbox" class="custom-control-input" id="brandTnf">
-                                <label class="custom-control-label" for="brandTnf">The North Face
-                                    <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                </label>
-                            </div>
-                        </div>
-                        <!-- End Checkboxes -->
-
-                        <!-- View More - Collapse -->
-                        <div class="collapse" id="collapseBrand">
-                            <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="brandGucci">
-                                    <label class="custom-control-label" for="brandGucci">Gucci
-                                        <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="brandMango">
-                                    <label class="custom-control-label" for="brandMango">Mango
-                                        <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End View More - Collapse -->
-
-                        <!-- Link -->
-                        <a class="link link-collapse small font-size-13 text-gray-27 d-inline-flex mt-2" data-toggle="collapse" href="#collapseBrand" role="button" aria-expanded="false" aria-controls="collapseBrand">
-                            <span class="link__icon text-gray-27 bg-white">
-                                <span class="link__icon-inner">+</span>
-                            </span>
-                            <span class="link-collapse__default">Show more</span>
-                            <span class="link-collapse__active">Show less</span>
-                        </a>
-                        <!-- End Link -->
+                    <div class="list-group">
+                        @foreach($productos as $p)
+                        @if($p->category->nombre == $categoria->nombre)
+                        <a href="{{url($p->slug)}}" class="font-bold-on-hover px-3 py-2 list-group-item list-group-item-action border-right-0 border-left-0 border-bottom-0"><i class="mr-2 fas fa-angle-right"></i> {{ $p->nombre }}</a>
+                        @endif
+                        @endforeach
                     </div>
-                </div>
+                </aside>
                 <div class="mb-8">
                     <div class="border-bottom border-color-1 mb-5">
                         <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Más Productos</h3>
@@ -226,7 +118,7 @@
                                                     <div class="text-gray-100">Bs. {{ $producto->precio_actual }}</div>
                                                 </div>
                                                 <div class="prodcut-add-cart">
-                                                    <a href="#" class="btn btn-sm btn-block btn-primary-dark btn-wide transition-3d-hover">Añadir al carrito</a>
+                                                    <a href="{{ route('cart-add', $producto->slug) }}" class="btn btn-sm btn-block btn-primary-dark btn-wide transition-3d-hover">Añadir al carrito</a>
                                                 </div>
                                             </div>
                                         </div>

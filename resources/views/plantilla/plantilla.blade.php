@@ -13,7 +13,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="assets/favicon_natural.png">
+        <link rel="shortcut icon" href="{{asset('assets/favicon_natural.png')}}">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
@@ -49,10 +49,7 @@
                             <div class="topbar-right ml-auto">
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <a href="#" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Localiza nuestra tienda</a>
-                                    </li>
-                                    <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <a href="../shop/track-your-order.html" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Has tu pedido</a>
+                                        <a href="{{ url('/sndsur/contactos') }}" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Localiza nuestra tienda</a>
                                     </li>
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <!-- Account Sidebar Toggle Button -->
@@ -143,7 +140,7 @@
                                                         <!-- Logo -->
                                                         <a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="../home/index.html" aria-label="Electro">
                                                             <div class="d-flex flex-row align-items-center justify-content-start">
-                                                                <div><img src="assets/sndsur.png" alt=""></div>
+                                                                <div><img src="{{asset('assets/sndsur.png')}}" alt=""></div>
                                                             </div>
                                                         </a>
                                                         <!-- End Logo -->
@@ -332,7 +329,7 @@
                                             <!-- Input -->
                                             <div id="searchClassic" class="dropdown-menu dropdown-unfold dropdown-menu-right left-0 mx-2" aria-labelledby="searchClassicInvoker">
                                                 <form class="js-focus-state input-group px-3">
-                                                    <input class="form-control" type="search" placeholder="Search Product">
+                                                    <input class="form-control" type="search" placeholder="Buscar Producto">
                                                     <div class="input-group-append">
                                                         <button class="btn btn-primary px-3" type="button"><i class="font-size-18 ec ec-search"></i></button>
                                                     </div>
@@ -341,14 +338,12 @@
                                             <!-- End Input -->
                                         </li>
                                         <!-- End Search -->
-                                        <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
-                                        <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
                                         <li class="col d-xl-none px-2 px-sm-3"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
                                         <li class="col pr-xl-0 px-2 px-sm-3">
-                                            <a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
+                                            <a href="{{ route('cart-show') }}" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
                                                 <i class="font-size-22 ec ec-shopping-bag"></i>
-                                                <span class="width-22 height-22 bg-dark position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12 text-white">2</span>
-                                                <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">Bs. 0.00</span>
+                                                <span class="width-22 height-22 bg-dark position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12 text-white">{{ count($cart) }}</span>
+                                                <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">Bs. {{ number_format($total,2) }}</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -383,7 +378,7 @@
                                                     </span>
                                                 </button>
                                             </div>
-                                            <div id="basicsCollapseOne" class="collapse show vertical-menu v1"
+                                            <div id="basicsCollapseOne" class="collapse vertical-menu v3 border-top-primary border-top border-width-2"
                                                 aria-labelledby="basicsHeadingOne"
                                                 data-parent="#basicsAccordion">
                                                 <div class="card-body p-0">
@@ -393,52 +388,52 @@
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="garcinia-cambogia-capsulas-doradas" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Capsulas Doradas</a>
+                                                                    <a href="{{ url('garcinia-cambogia-capsulas-doradas') }}" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Capsulas Doradas</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="meizi-evolution-soft-gel" class="nav-link u-header__nav-link font-weight-bold">Meizi Evolution Soft Gel</a>
+                                                                    <a href="{{ url('meizi-evolution-soft-gel') }}" class="nav-link u-header__nav-link font-weight-bold">Meizi Evolution Soft Gel</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="paizhisu-strong-version" class="nav-link u-header__nav-link font-weight-bold">Paizhisu STRONG Versión</a>
+                                                                    <a href="{{ url('paizhisu-strong-version') }}" class="nav-link u-header__nav-link font-weight-bold">Paizhisu STRONG Versión</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="garcinia-cambogia-soft-gel" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Soft Gel</a>
+                                                                    <a href="{{ url('garcinia-cambogia-soft-gel') }}" class="nav-link u-header__nav-link font-weight-bold">Garcinia Cambogia Soft Gel</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="viagra-vegetal" class="nav-link u-header__nav-link font-weight-bold">Viagra Vegetal</a>
+                                                                    <a href="{{ url('viagra-vegetal') }}" class="nav-link u-header__nav-link font-weight-bold">Viagra Vegetal</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="capsulas-maxman-iv" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IV</a>
+                                                                    <a href="{{ url('capsulas-maxman-iv') }}" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IV</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="capsulas-maxman-ix" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IX</a>
+                                                                    <a href="{{ url('capsulas-maxman-ix') }}" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman IX</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="capsulas-maxman-xl" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman XL</a>
+                                                                    <a href="{{ url('capsulas-maxman-xl') }}" class="nav-link u-header__nav-link font-weight-bold">Capsulas maxman XL</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="capsulas-african-black-ant" class="nav-link u-header__nav-link font-weight-bold">Capsulas African Black Ant</a>
+                                                                    <a href="{{ url('capsulas-african-black-ant') }}" class="nav-link u-header__nav-link font-weight-bold">Capsulas African Black Ant</a>
                                                                 </li>
                                                                 <li class="nav-item u-header__nav-item"
                                                                     data-event="hover"
                                                                     data-position="left">
-                                                                    <a href="tabletas-g-female-oral" class="nav-link u-header__nav-link font-weight-bold">Tabletas G-Female Oral</a>
+                                                                    <a href="{{ url('tabletas-g-female-oral') }}" class="nav-link u-header__nav-link font-weight-bold">Tabletas G-Female Oral</a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -463,13 +458,13 @@
                                             <!-- Select -->
                                             <select class="js-select selectpicker dropdown-select custom-search-categories-select"
                                                 data-style="btn height-40 text-gray-60 font-weight-normal border-0 rounded-0 bg-white px-5 py-2">
-                                                <option value="one" selected>Todas las categorias</option>
-                                                <option value="two">Bajar de peso</option>
-                                                <option value="three">Estimuladores & Potenciadores</option>
-                                                <option value="four">Garnicia Cambogia</option>
-                                                <option value="four">Maxman</option>
-                                                <option value="four">Salud & Belleza</option>
-                                                <option value="four">Salud Sexual</option>
+                                                <option value="0" selected>Todas las categorias</option>
+                                                <option value="salud-y-belleza">Bajar de peso</option>
+                                                <option value="salud-sexual">Estimuladores & Potenciadores</option>
+                                                <option value="salud-y-belleza">Garnicia Cambogia</option>
+                                                <option value="salud-sexual">Maxman</option>
+                                                <option value="salud-y-belleza">Salud & Belleza</option>
+                                                <option value="salud-sexual">Salud Sexual</option>
                                             </select>
                                             <!-- End Select -->
                                             <button class="btn btn-dark height-40 py-2 px-3 rounded-right-pill" type="button" id="searchProduct1">
@@ -485,13 +480,11 @@
                             <div class="col-md-auto align-self-center">
                                 <div class="d-flex">
                                     <ul class="d-flex list-unstyled mb-0">
-                                        <li class="col"><a href="../shop/compare.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
-                                        <li class="col"><a href="../shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
                                         <li class="col pr-0">
-                                            <a href="../shop/cart.html" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
+                                            <a href="{{ route('cart-show') }}" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Carrito">
                                                 <i class="font-size-22 ec ec-shopping-bag"></i>
-                                                <span class="width-22 height-22 bg-dark position-absolute flex-content-center text-white rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-                                                <span class="font-weight-bold font-size-16 text-gray-90 ml-3">Bs0.00</span>
+                                                <span class="width-22 height-22 bg-dark position-absolute flex-content-center text-white rounded-circle left-12 top-8 font-weight-bold font-size-12">{{ count($cart) }}</span>
+                                                <span class="font-weight-bold font-size-16 text-gray-90 ml-3">Bs. {{ number_format($total,2) }}</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -521,10 +514,10 @@
                             <ul class="list-unstyled products-group">
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="capsulas-african-black-ant" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img1.jpg" alt="Image Description"></a>
+                                        <a href="{{ url('capsulas-african-black-ant') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img1.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="capsulas-african-black-ant" class="text-blue font-weight-bold">Capsulas African Black Ant</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="{{ url('capsulas-african-black-ant') }}" class="text-blue font-weight-bold">Capsulas African Black Ant</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">Bs. 180.00</div>
                                         </div>
@@ -532,10 +525,10 @@
                                 </li>
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="paizhisu-strong-version" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img2.jpg" alt="Image Description"></a>
+                                        <a href="{{ url('paizhisu-strong-version') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img2.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="paizhisu-strong-version" class="text-blue font-weight-bold">Paizhisu STRONG Versión</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="{{ url('paizhisu-strong-version') }}" class="text-blue font-weight-bold">Paizhisu STRONG Versión</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">$210.00</div>
                                         </div>
@@ -543,10 +536,10 @@
                                 </li>
                                 <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                     <div class="col-auto">
-                                        <a href="garcinia-cambogia-soft-gel" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img3.jpg" alt="Image Description"></a>
+                                        <a href="{{ url('garcinia-cambogia-soft-gel') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img3.jpg" alt="Image Description"></a>
                                     </div>
                                     <div class="col pl-4 d-flex flex-column">
-                                        <h5 class="product-item__title mb-0"><a href="garcinia-cambogia-soft-gel" class="text-blue font-weight-bold">Garcinia Cambogia Soft Gel</a></h5>
+                                        <h5 class="product-item__title mb-0"><a href="{{ url('garcinia-cambogia-soft-gel') }}" class="text-blue font-weight-bold">Garcinia Cambogia Soft Gel</a></h5>
                                         <div class="prodcut-price mt-auto">
                                             <div class="font-size-15">$180.00</div>
                                         </div>
@@ -562,10 +555,10 @@
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="capsulas-maxman-iv" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img4.jpg" alt="Image Description"></a>
+                                    <a href="{{ url('capsulas-maxman-iv') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img4.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="capsulas-maxman-iv" class="text-blue font-weight-bold">Capsulas maxman IV</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="{{ url('capsulas-maxman-iv') }}" class="text-blue font-weight-bold">Capsulas maxman IV</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
                                     <ins class="font-size-15 text-decoration-none">Bs. 160.00</ins>
                                         <del class="font-size-12 text-gray-9 ml-2">Bs. 200.00</del>
@@ -574,10 +567,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="capsulas-maxman-xl" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img5.jpg" alt="Image Description"></a>
+                                    <a href="{{ url('capsulas-maxman-xl') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img5.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="capsulas-maxman-xl" class="text-blue font-weight-bold">Capsulas maxman XL</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="{{ url('capsulas-maxman-xl') }}" class="text-blue font-weight-bold">Capsulas maxman XL</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
                                         <ins class="font-size-15 text-decoration-none">Bs. 180.00</ins>
                                         <del class="font-size-12 text-gray-9 ml-2">Bs. 210.00</del>
@@ -586,10 +579,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="garcinia-cambogia-capsulas-doradas" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
+                                    <a href="{{ url('garcinia-cambogia-capsulas-doradas') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="garcinia-cambogia-capsulas-doradas" class="text-blue font-weight-bold">Garcinia Cambogia Capsulas Doradas</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="{{ url('garcinia-cambogia-capsulas-doradas') }}" class="text-blue font-weight-bold">Garcinia Cambogia Capsulas Doradas</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
                                     <ins class="font-size-15 text-decoration-none">Bs. 280.00</ins>
                                         <del class="font-size-12 text-gray-9 ml-2">Bs. 300.00</del>
@@ -605,10 +598,10 @@
                         <ul class="list-unstyled products-group">
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="capsulas-maxman-ix" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img7.jpg" alt="Image Description"></a>
+                                    <a href="{{ url('capsulas-maxman-ix') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img7.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="capsulas-maxman-ix" class="text-blue font-weight-bold">Capsulas maxman IX</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="{{ url('capsulas-maxman-ix') }}" class="text-blue font-weight-bold">Capsulas maxman IX</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -623,10 +616,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="viagra-vegetal" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img8.jpg" alt="Image Description"></a>
+                                    <a href="{{ url('viagra-vegetal') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img8.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="viagra-vegetal" class="text-blue font-weight-bold">Viagra Vegetal</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="{{ url('viagra-vegetal') }}" class="text-blue font-weight-bold">Viagra Vegetal</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -641,10 +634,10 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="meizi-evolution-soft-gel" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img9.jpg" alt="Image Description"></a>
+                                    <a href="{{ url('meizi-evolution-soft-gel') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img9.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="meizi-evolution-soft-gel" class="text-blue font-weight-bold">Meizi Evolution Soft Gel</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="{{ url('meizi-evolution-soft-gel') }}" class="text-blue font-weight-bold">Meizi Evolution Soft Gel</a></h5>
                                     <div class="text-warning mb-2">
                                         <small class="fas fa-star"></small>
                                         <small class="fas fa-star"></small>
@@ -658,9 +651,6 @@
                                 </div>
                             </li>
                         </ul>
-                    </div>
-                    <div class="col-wd-3 d-none d-wd-block">
-                        <a href="../shop/shop.html" class="d-block"><img class="img-fluid" src="../../assets/img/330X360/img1.jpg" alt="Image Description"></a>
                     </div>
                 </div>
             </div>
@@ -706,7 +696,7 @@
                             <div class="mb-6">
                                 <a href="#" class="d-inline-block">
                                     <div class="d-flex flex-row align-items-center justify-content-start">
-                                        <div><img src="assets/sndsur.png" alt=""></div>
+                                        <div><img src="{{asset('assets/sndsur.png')}}" alt=""></div>
                                     </div>
                                 </a>
                             </div>
@@ -850,14 +840,14 @@
                                         <!-- Form Group -->
                                         <div class="form-group">
                                             <div class="js-form-message js-focus-state">
-                                              <label class="sr-only" for="signinPassword">Password</label>
+                                              <label class="sr-only" for="signinPassword">Contraseña</label>
                                               <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="signinPasswordLabel">
                                                         <span class="fas fa-lock"></span>
                                                     </span>
                                                 </div>
-                                                <input type="password" class="form-control" name="password" id="signinPassword" placeholder="Password" aria-label="Password" aria-describedby="signinPasswordLabel" required
+                                                <input type="password" class="form-control" name="password" id="signinPassword" placeholder="Contraseña" aria-label="Password" aria-describedby="signinPasswordLabel" required
                                                    data-msg="Your password is invalid. Please try again."
                                                    data-error-class="u-has-error"
                                                    data-success-class="u-has-success">
@@ -870,24 +860,24 @@
                                             <a class="js-animation-link small link-muted" href="javascript:;"
                                                data-target="#forgotPassword"
                                                data-link-group="idForm"
-                                               data-animation-in="slideInUp">Forgot Password?</a>
+                                               data-animation-in="slideInUp">¿Se te olvidó tu contraseña?</a>
                                         </div>
 
                                         <div class="mb-2">
-                                            <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Login</button>
+                                            <button type="submit" class="btn btn-block btn-sm btn-primary transition-3d-hover">Iniciar Sesión</button>
                                         </div>
 
                                         <div class="text-center mb-4">
-                                            <span class="small text-muted">Do not have an account?</span>
+                                            <span class="small text-muted">¿No tienes una cuenta?</span>
                                             <a class="js-animation-link small text-dark" href="javascript:;"
                                                data-target="#signup"
                                                data-link-group="idForm"
-                                               data-animation-in="slideInUp">Signup
+                                               data-animation-in="slideInUp">Regístrate
                                             </a>
                                         </div>
 
                                         <div class="text-center">
-                                            <span class="u-divider u-divider--xs u-divider--text mb-4">OR</span>
+                                            <span class="u-divider u-divider--xs u-divider--text mb-4">O</span>
                                         </div>
 
                                         <!-- Login Buttons -->
@@ -1202,6 +1192,21 @@
 
                 // initialization of select picker
                 $.HSCore.components.HSSelectPicker.init('.js-select');
+                
+                //Update item cart
+                $(".btn-update-item").on('click', function(e){
+                    e.preventDefault();
+                    
+                    var id = $(this).data('id');
+                    var href = $(this).data('href');
+                    var cantidad = $("#product_" + id).val();
+                    if(cantidad < 1){
+                        cantidad = 1;
+                    }
+
+                    window.location.href = "update/" + href + "/" + cantidad;
+                });
+            
             });
         </script>
         

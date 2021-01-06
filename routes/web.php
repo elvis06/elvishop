@@ -23,7 +23,13 @@ Route::get('/', function () {
     $productos = Product::all();
     $categorias = Category::all();
     $slider = Product::where('sliderprincipal','Si');
-    return view('tienda.index', compact('productos','categorias','slider'));
+    if(!\Session::has('cart')) \Session::put('cart', array());
+    $cart = \Session::get('cart');
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item->precio_actual * $item->cant;
+    }
+    return view('tienda.index', compact('productos','categorias','slider','cart','total'));
 });
 
 Route::resource('/role', 'RoleController')->names('role');
@@ -36,16 +42,36 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/categoria/{slug}', 'API\CategoryController@categoria')->name('categoria');
 Route::get('/{slug}', 'API\ProductController@producto')->name('producto');
 Route::get('/sndsur/contactos', function () {
-    return view('tienda.contactos');
+    $cart = \Session::get('cart');
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item->precio_actual * $item->cant;
+    }
+    return view('tienda.contactos', compact('cart','total'));
 });
 Route::get('/sndsur/sobre-nosotros', function () {
-    return view('tienda.sobre-nosotros');
+    $cart = \Session::get('cart');
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item->precio_actual * $item->cant;
+    }
+    return view('tienda.sobre-nosotros', compact('cart','total'));
 });
 Route::get('/sndsur/nuestro-equipo', function () {
-    return view('tienda.nuestro-equipo');
+    $cart = \Session::get('cart');
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item->precio_actual * $item->cant;
+    }
+    return view('tienda.nuestro-equipo', compact('cart','total'));
 });
 Route::get('/sndsur/trabaja-con-nosotros', function () {
-    return view('tienda.trabaja-con-nosotros');
+    $cart = \Session::get('cart');
+    $total = 0;
+    foreach ($cart as $item) {
+        $total += $item->precio_actual * $item->cant;
+    }
+    return view('tienda.trabaja-con-nosotros', compact('cart','total'));
 });
 Route::get('login/{driver}', 'Auth\LoginController@redirectToProvider');
 Route::get('login/{driver}/callback', 'Auth\LoginController@handleProviderCallback');
@@ -60,3 +86,14 @@ Route::resource('admin/product', 'Admin\AdminProductController')->names('admin.p
 Route::get('cancelar/{ruta}', function($ruta){
     return redirect()->route($ruta)->with('cancelar','Acción cancelada!');
 })->name('cancelar');
+
+//Buscar productos en base al slug
+Route::bind('product', function($slug){
+    return App\Product::where('slug', $slug)->first();
+});
+//Carrito
+Route::get('cart/show', 'CartController@show')->name('cart-show');
+Route::get('cart/add/{product}', 'CartController@add')->name('cart-add');
+Route::get('cart/delete/{product}', 'CartController@delete')->name('cart-delete');
+Route::get('cart/trash', 'CartController@trash')->name('cart-trash');
+Route::get('cart/update/{product}/{cantidad}', 'CartController@update')->name('cart-update');

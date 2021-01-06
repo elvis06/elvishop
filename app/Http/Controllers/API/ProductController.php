@@ -36,7 +36,12 @@ class ProductController extends Controller
         $productos = Product::all();
         $producto = Product::where('slug',$slug)->first();
         if ($producto){
-            return view('tienda.producto', compact('producto','productos'));
+            $cart = \Session::get('cart');
+            $total = 0;
+            foreach ($cart as $item) {
+                $total += $item->precio_actual * $item->cant;
+            }
+            return view('tienda.producto', compact('producto','productos','cart','total'));
         }else{
             return 'No existe el enlace';
         }

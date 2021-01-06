@@ -30,7 +30,7 @@
                             <div class="list-group">
                                 @foreach($productos as $p)
                                 @if($producto->category->nombre == $p->category->nombre)
-                                <a href="{{$p->slug}}" class="font-bold-on-hover px-3 py-2 list-group-item list-group-item-action border-right-0 border-left-0 border-bottom-0"><i class="mr-2 fas fa-angle-right"></i> {{ $p->nombre }}</a>
+                                <a href="{{url($p->slug)}}" class="font-bold-on-hover px-3 py-2 list-group-item list-group-item-action border-right-0 border-left-0 border-bottom-0"><i class="mr-2 fas fa-angle-right"></i> {{ $p->nombre }}</a>
                                 @endif
                                 @endforeach
                             </div>
@@ -128,7 +128,6 @@
                                             </div>
                                         </div>
                                         {!! $producto->descripcion_corta !!}
-                                        <p><strong>SKU</strong>: FW511948218</p>
                                         <div class="mb-4">
                                             <div class="d-flex align-items-baseline">
                                                 <ins class="font-size-36 text-decoration-none">Bs. {{ $producto->precio_actual }}</ins>
@@ -136,28 +135,8 @@
                                             </div>
                                         </div>
                                         <div class="d-md-flex align-items-end mb-3">
-                                            <div class="max-width-150 mb-4 mb-md-0">
-                                                <h6 class="font-size-14">Cantidad</h6>
-                                                <!-- Quantity -->
-                                                <div class="border rounded-pill py-2 px-3 border-color-1">
-                                                    <div class="js-quantity row align-items-center">
-                                                        <div class="col">
-                                                            <input class="js-result form-control h-auto border-0 rounded p-0 shadow-none" type="text" value="1">
-                                                        </div>
-                                                        <div class="col-auto pr-1">
-                                                            <a class="js-minus btn btn-icon btn-xs btn-outline-secondary rounded-circle border-0" href="javascript:;">
-                                                                <small class="fas fa-minus btn-icon__inner"></small>
-                                                            </a>
-                                                            <a class="js-plus btn btn-icon btn-xs btn-outline-secondary rounded-circle border-0" href="javascript:;">
-                                                                <small class="fas fa-plus btn-icon__inner"></small>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- End Quantity -->
-                                            </div>
                                             <div class="ml-md-3">
-                                                <a href="" class="btn px-5 btn-primary-dark transition-3d-hover"><i class="ec ec-add-to-cart mr-2 font-size-20"></i> Añadir al carrito</a>
+                                                <a href="{{ route('cart-add', $producto->slug) }}" class="btn px-5 btn-primary-dark transition-3d-hover"><i class="ec ec-add-to-cart mr-2 font-size-20"></i> Añadir al carrito</a>
                                             </div>
                                         </div>
                                     </div>
