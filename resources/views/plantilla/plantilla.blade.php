@@ -6,7 +6,8 @@
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
-        <meta name="description" content="Salud Natural del Sur">
+        <meta name="keywords" content="adelgazar,reducir,peso,reduce,extreme,maxman,sexual" />
+        <meta name="description" content="Salud Natural del Sur ofrece productos naturales para reducir peso y mejorar el rendimiento sexual. Nuestros productos son: Reduce Extreme, Paizhisu STRONG Version, Meizi Evolution Soft Gel, Garcinia Cambogia Soft Gel, G-Female Oral, Maxman IV, Maxman IX, Maxman XL, African Black Ant, Viagra Vegetal">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- CSRF Token -->
@@ -269,7 +270,6 @@
                                                 <!-- Blog - Submenu -->
                                                 <ul id="blogSubMenu" class="hs-sub-menu u-header__sub-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
                                                     <li><a class="nav-link u-header__sub-menu-nav-link" href="{{ url('/sndsur/sobre-nosotros') }}">Sobre Nosotros</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="{{ url('/sndsur/nuestro-equipo') }}">Nuestro Equipo</a></li>
                                                     <li><a class="nav-link u-header__sub-menu-nav-link" href="{{ url('/sndsur/trabaja-con-nosotros') }}">Trabaja con Nosotros</a></li>
                                                 </ul>
                                                 <!-- End Submenu -->
