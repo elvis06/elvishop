@@ -57,13 +57,13 @@ Route::get('/sndsur/sobre-nosotros', function () {
     }
     return view('tienda.sobre-nosotros', compact('cart','total'));
 });
-Route::get('/sndsur/nuestro-equipo', function () {
+Route::get('/sndsur/condiciones', function () {
     $cart = \Session::get('cart');
     $total = 0;
     foreach ($cart as $item) {
         $total += $item->precio_actual * $item->cant;
     }
-    return view('tienda.nuestro-equipo', compact('cart','total'));
+    return view('tienda.condiciones', compact('cart','total'));
 });
 Route::get('/sndsur/trabaja-con-nosotros', function () {
     $cart = \Session::get('cart');

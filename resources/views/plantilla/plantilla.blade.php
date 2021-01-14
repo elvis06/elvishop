@@ -765,8 +765,7 @@
                                     <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/sobre-nosotros') }}">Sobre Nosotros</a></li>
                                         <li><a class="list-group-item list-group-item-action" href="#">Medios de pago</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="#">Condiciones de Uso</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/nuestro-equipo') }}">Nuestro equipo</a></li>
+                                        <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/condiciones') }}">Condiciones de Uso</a></li>
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/trabaja-con-nosotros') }}">Trabaja con Nosotros</a></li>
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/contactos') }}">Contáctanos</a></li>
                                     </ul>
