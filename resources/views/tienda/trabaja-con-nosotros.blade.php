@@ -10,8 +10,8 @@
             <div class="my-md-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="../home/index.html">Home</a></li>
-                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Track your Order</li>
+                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="/">Inicio</a></li>
+                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Sobre Nosotros</li>
                     </ol>
                 </nav>
             </div>
@@ -20,45 +20,123 @@
     </div>
     <!-- End breadcrumb -->
 
+
     <div class="container">
-        <div class="mx-xl-10">
-            <div class="mb-6 text-center">
-                <h1 class="mb-6">Track your Order</h1>
-                <p class="text-gray-90 px-xl-10">To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
-            </div>
-            <div class="my-4 my-xl-8">
-                <form class="js-validate" novalidate="novalidate">
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <!-- Form Group -->
-                            <div class="js-form-message form-group">
-                                <label class="form-label" for="orderid">Order ID
-                                </label>
-                                <input type="text" class="form-control" name="text" id="orderid" placeholder="Found in your order confirmation email." aria-label="Found in your order confirmation email.">
-                            </div>
-                            <!-- End Form Group -->
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <!-- Form Group -->
-                            <div class="js-form-message form-group">
-                                <label class="form-label" for="billingemail">Billing email
-                                </label>
-                                <input type="email" class="form-control" name="email" id="billingemail" placeholder="Email you used during checkout." aria-label="Email you used during checkout." required
-                                data-msg="Please enter a valid email address."
-                                data-error-class="u-has-error"
-                                data-success-class="u-has-success">
-                            </div>
-                            <!-- End Form Group -->
-                        </div>
-                        <!-- Button -->
-                        <div class="col mb-1">
-                            <button type="button" class="btn btn-soft-secondary mb-3 mb-md-0 font-weight-normal px-5 px-md-4 px-lg-5 w-100 w-md-auto">Track</button>
-                        </div>
-                        <!-- End Button -->
+        <div class="mb-5">
+            <h1 class="text-center">Salud Natural del Sur</h1>
+        </div>
+        <div class="row mb-10">
+            <div class="col-lg-7 col-xl-6 mb-8 mb-lg-0">
+                <div class="mr-xl-6">
+                    <div class="border-bottom border-color-1 mb-5">
+                        <h3 class="section-title mb-0 pb-2 font-size-25">Trabaja con Nosotros</h3>
                     </div>
-                </form>
+                    <p class="max-width-830-xl text-gray-90">
+                    <strong>ESTAMOS CONTRATANDO!</strong>
+                    </p>
+                    <p class="max-width-830-xl text-gray-90">
+                    Si posees estas aptitudes no dudes en formar parte de Salud Natural del Sur. Te ofrecemos una carrera de futuro con buenas prestaciones.
+                    </p>
+                    <p class="max-width-830-xl text-gray-90">
+                    <i>Una gran visión sin grandes personas es irrelevante -Jim Collins.</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-5 col-xl-6">
+                <div class="col-auto">
+                    <img class="img-fluid" src="../../imagenes/trabajaconnosotros.png" alt="Trabaja con Salud natural del sur">
+                </div>
             </div>
         </div>
+        <!-- Brand Carousel -->
+        <div class="mb-8">
+            <div class="py-2 border-top border-bottom">
+                <div class="js-slick-carousel u-slick my-1"
+                    data-slides-show="5"
+                    data-slides-scroll="1"
+                    data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-normal u-slick__arrow-centered--y"
+                    data-arrow-left-classes="fa fa-angle-left u-slick__arrow-classic-inner--left z-index-9"
+                    data-arrow-right-classes="fa fa-angle-right u-slick__arrow-classic-inner--right"
+                    data-responsive='[{
+                        "breakpoint": 992,
+                        "settings": {
+                            "slidesToShow": 2
+                        }
+                    }, {
+                        "breakpoint": 768,
+                        "settings": {
+                            "slidesToShow": 1
+                        }
+                    }, {
+                        "breakpoint": 554,
+                        "settings": {
+                            "slidesToShow": 1
+                        }
+                    }]'>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img2.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img1.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img3.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img4.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img5.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img6.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img7.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img8.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img9.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img10.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img11.png" alt="Image Description">
+                        </a>
+                    </div>
+                    <div class="js-slide">
+                        <a href="tel:+59178246463">
+                            <img class="img-fluid m-auto max-height-50" src="../../assets/img/200X60/img12.png" alt="Image Description">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Brand Carousel -->
     </div>
 </main>
 <!-- ========== END MAIN CONTENT ========== -->

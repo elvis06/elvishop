@@ -46,20 +46,6 @@
                 <div class="col-auto">
                     <img class="img-fluid" src="../../assets/img/416X420/reduce-extreme.png" alt="Image Description">
                 </div>
-                <div class="border-bottom border-color-1 mb-5">
-                    <h3 class="section-title mb-0 pb-2 font-size-25">Nuestra dirección</h3>
-                </div>
-                <address class="mb-6 text-lh-23">
-                    Calle Cochabamba #947, 
-                    Ciudad de Tarija – Bolivia
-                    <div class="">Support(+591)78246463</div>
-                    <div class="">Email: <a class="text-blue text-decoration-on" href="mailto:info@saludnaturaldelsur.com">info@saludnaturaldelsur.com</a></div>
-                </address>
-                <h5 class="font-size-14 font-weight-bold mb-3">Horas de atención</h5>
-                <div class="">Lunea a Viernes: 8am-8pm</div>
-                <div class="mb-6">Sábados y domingos: 9am-11pm</div>
-                <h5 class="font-size-14 font-weight-bold mb-3">Trabajo</h5>
-                <p class="text-gray-90">Si está interesado en trabajar con SNDSUR, envíenos un correo electrónico: <a class="text-blue text-decoration-on" href="mailto:miriam@saludnaturaldelsur.com">miriam@saludnaturaldelsur.com</a></p>
             </div>
         </div>
         <!-- Brand Carousel -->
