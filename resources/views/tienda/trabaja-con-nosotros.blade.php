@@ -37,6 +37,7 @@
                     <p class="max-width-830-xl text-gray-90">
                     Si posees estas aptitudes no dudes en formar parte de Salud Natural del Sur. Te ofrecemos una carrera de futuro con buenas prestaciones.
                     </p>
+                    <p class="text-gray-90">Si está interesado en trabajar con SNDSUR, envíenos un correo electrónico: <a class="text-blue text-decoration-on" href="mailto:miriam@saludnaturaldelsur.com">miriam@saludnaturaldelsur.com</a></p>
                     <p class="max-width-830-xl text-gray-90">
                     <i>Una gran visión sin grandes personas es irrelevante -Jim Collins.</i>
                     </p>
