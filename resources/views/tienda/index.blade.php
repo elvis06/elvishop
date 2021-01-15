@@ -19,17 +19,17 @@
 							<div class="offset-xl-2 col-xl-4 col-6 mt-md-8">
 								<h1 class="font-size-64 text-lh-57 font-weight-light"
 									data-scs-animation-in="fadeInUp">
-									Garcinia Cambogia
+									Reduce Extreme
 								</h1>
 								<h6 class="font-size-15 font-weight-bold mb-3"
 									data-scs-animation-in="fadeInUp"
-									data-scs-animation-delay="200">Capsulas Doradas
+									data-scs-animation-delay="200">Forte
 								</h6>
 								<div class="mb-4"
 									data-scs-animation-in="fadeInUp"
 									data-scs-animation-delay="300">
 									<div class="font-size-50 font-weight-bold text-lh-45">
-										<sup class="">Bs.</sup>210.00<sup class=""></sup>
+										<sup class="">Bs.</sup>250.00<sup class=""></sup>
 									</div>
 								</div>
 								<a href="{{ route('cart-add', 'garcinia-cambogia-capsulas-doradas') }}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
@@ -41,7 +41,7 @@
 							<div class="col-xl-5 col-6  d-flex align-items-center"
 								data-scs-animation-in="zoomIn"
 								data-scs-animation-delay="500">
-								<img class="img-fluid" src="../../assets/img/416X420/img1.png" alt="Image Description">
+								<img class="img-fluid" src="../../assets/img/416X420/reduce-extreme.png" alt="Reduce Extreme Forte">
 							</div>
 						</div>
 					</div>
