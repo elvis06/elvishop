@@ -730,12 +730,6 @@
                                 </div>
 
                                 <div class="col-12 col-md mb-4 mb-md-0">
-                                    <!-- List Group -->
-                                    
-                                    <!-- End List Group -->
-                                </div>
-
-                                <div class="col-12 col-md mb-4 mb-md-0">
                                     <h6 class="mb-3 font-weight-bold">Información</h6>
                                     <!-- List Group -->
                                     <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
