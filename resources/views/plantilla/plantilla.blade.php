@@ -712,34 +712,10 @@
                                 </div>
                             </div>
                             <div class="mb-4">
-                                <h6 class="mb-1 font-weight-bold">Información de contacto</h6>
+                                <h6 class="mb-1 font-weight-bold">Dirección</h6>
                                 <address class="">
                                     Calle Cochabamba Nº 947, Tarija - Bolivia
                                 </address>
-                            </div>
-                            <div class="my-4 my-md-4">
-                                <ul class="list-inline mb-0 opacity-7">
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-facebook-f btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-google btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-twitter btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-instagram btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -764,13 +740,37 @@
                                     <!-- List Group -->
                                     <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/sobre-nosotros') }}">Sobre Nosotros</a></li>
-                                        <li><a class="list-group-item list-group-item-action" href="#">Medios de pago</a></li>
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/condiciones') }}">Condiciones de Uso</a></li>
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/trabaja-con-nosotros') }}">Trabaja con Nosotros</a></li>
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/contactos') }}">Contáctanos</a></li>
                                     </ul>
                                     <!-- End List Group -->
                                 </div>
+                                
+                            <div class="my-4 my-md-4">
+                                <ul class="list-inline mb-0 opacity-7">
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-facebook-f btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-google btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-twitter btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-instagram btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                             </div>
                         </div>
                     </div>
