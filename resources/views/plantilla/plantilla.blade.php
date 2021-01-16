@@ -720,12 +720,18 @@
                         </div>
                         <div class="col-lg-8">
                             <div class="row">
-                                <div class="col-8 col-md mb-8 mb-md-0">
+                                <div class="col-7 col-md mb-8 mb-md-0">
                                     <h6 class="mb-3 font-weight-bold">Salud Natural del Sur</h6>
                                     <!-- List Group -->
                                     <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
                                         <li>Salud Natural del Sur, es una empresa especializada en la distribución, venta y comercialización de productos hechos a base de hierbas naturales, para la mejora de la salud, perdida de peso, energizantes, potenciadores, Nuestro objetivo es "Cuidar tu Salud" y mejorar tu calidad de vida</li>
                                     </ul>
+                                    <!-- End List Group -->
+                                </div>
+
+                                <div class="col-1">
+                                    <!-- List Group -->
+                                    
                                     <!-- End List Group -->
                                 </div>
 
