@@ -575,13 +575,13 @@
                             </li>
                             <li class="product-item product-item__list row no-gutters mb-6 remove-divider">
                                 <div class="col-auto">
-                                    <a href="{{ url('garcinia-cambogia-capsulas-doradas') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
+                                    <a href="{{ url('reduce-extreme') }}" class="d-block width-75 text-center"><img class="img-fluid" src="../../assets/img/75X75/img6.jpg" alt="Image Description"></a>
                                 </div>
                                 <div class="col pl-4 d-flex flex-column">
-                                    <h5 class="product-item__title mb-0"><a href="{{ url('garcinia-cambogia-capsulas-doradas') }}" class="text-blue font-weight-bold">Garcinia Cambogia Capsulas Doradas</a></h5>
+                                    <h5 class="product-item__title mb-0"><a href="{{ url('reduce-extreme') }}" class="text-blue font-weight-bold">Reduce Extreme Premium</a></h5>
                                     <div class="prodcut-price mt-auto flex-horizontal-center">
-                                    <ins class="font-size-15 text-decoration-none">Bs. 280.00</ins>
-                                        <del class="font-size-12 text-gray-9 ml-2">Bs. 300.00</del>
+                                    <ins class="font-size-15 text-decoration-none">Bs. 250.00</ins>
+                                        <del class="font-size-12 text-gray-9 ml-2">Bs. 280.00</del>
                                     </div>
                                 </div>
                             </li>
