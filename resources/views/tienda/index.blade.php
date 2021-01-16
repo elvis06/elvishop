@@ -360,7 +360,29 @@
 			</div>
 		</div>
 		<!-- End Recently viewed -->
+		<!-- Banner 3 columns -->
+		<div class="mb-8">
+			<div class="row">
+				<div class="col-md-4 mb-3 mb-md-0">
+					<a href="{{ url('/categoria/salud-y-belleza') }}">
+						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+					</a>
+				</div>
+				<div class="col-md-4">
+					<a href="{{ url('/categoria/salud-sexual') }}">
+						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+					</a>
+				</div>
+				<div class="col-md-4 mb-3 mb-md-0">
+					<a href="{{ url('/categoria/salud-y-belleza') }}">
+						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- End Banner 3 columns -->
 		<!-- Brand Carousel -->
+		<!--
 		<div class="mb-8">
 			<div class="py-2 border-top border-bottom">
 				<div class="js-slick-carousel u-slick my-1"
@@ -448,6 +470,7 @@
 				</div>
 			</div>
 		</div>
+		-->
 		<!-- End Brand Carousel -->
 	</div>
 </main>

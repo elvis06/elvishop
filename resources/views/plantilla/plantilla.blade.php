@@ -206,10 +206,6 @@
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="{{ url('/sndsur/sobre-nosotros') }}">Sobre Nosotros</a></li>
                                                                         <!-- End Single Product Extended -->
 
-                                                                        <!-- Single Product Fullwidth -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="{{ url('/sndsur/nuestro-equipo') }}">Nuestro Equipo</a></li>
-                                                                        <!-- End Single Product Fullwidth -->
-
                                                                         <!-- Single Product Sidebar -->
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="{{ url('/sndsur/trabaja-con-nosotros') }}">Trabaja con Nosotros</a></li>
                                                                         <!-- End Single Product Sidebar -->
