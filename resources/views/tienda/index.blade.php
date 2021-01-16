@@ -365,7 +365,7 @@
 			<div class="row">
 				<div class="col-md-4 mb-3 mb-md-0">
 					<a href="{{ url('/categoria/salud-y-belleza') }}">
-						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+						<img class="img-fluid" src="../../assets/img/690X150/envio-gratuito.jpg" alt="Envío gratuito">
 					</a>
 				</div>
 				<div class="col-md-4">
@@ -375,7 +375,7 @@
 				</div>
 				<div class="col-md-4 mb-3 mb-md-0">
 					<a href="{{ url('/categoria/salud-y-belleza') }}">
-						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+						<img class="img-fluid" src="../../assets/img/690X150/atencion-personalizada.jpg" alt="Atención personalizada">
 					</a>
 				</div>
 			</div>
