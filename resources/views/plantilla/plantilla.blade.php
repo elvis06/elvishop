@@ -745,32 +745,32 @@
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/contactos') }}">Contáctanos</a></li>
                                     </ul>
                                     <!-- End List Group -->
+                                    <div class="my-4 my-md-4">
+                                        <ul class="list-inline mb-0 opacity-7">
+                                            <li class="list-inline-item mr-0">
+                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                                    <span class="fab fa-facebook-f btn-icon__inner"></span>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item mr-0">
+                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                                    <span class="fab fa-google btn-icon__inner"></span>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item mr-0">
+                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                                    <span class="fab fa-twitter btn-icon__inner"></span>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item mr-0">
+                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                                    <span class="fab fa-instagram btn-icon__inner"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                                
-                            <div class="my-4 my-md-4">
-                                <ul class="list-inline mb-0 opacity-7">
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-facebook-f btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-google btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-twitter btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item mr-0">
-                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                            <span class="fab fa-instagram btn-icon__inner"></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            
                             </div>
                         </div>
                     </div>
