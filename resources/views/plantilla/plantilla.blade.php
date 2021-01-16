@@ -692,7 +692,7 @@
             <div class="pt-8 pb-4 bg-gray-13">
                 <div class="container mt-1">
                     <div class="row">
-                        <div class="col-lg-5">
+                        <div class="col-lg-4">
                             <div class="mb-6">
                                 <a href="#" class="d-inline-block">
                                     <div class="d-flex flex-row align-items-center justify-content-start">
@@ -718,7 +718,7 @@
                                 </address>
                             </div>
                         </div>
-                        <div class="col-lg-7">
+                        <div class="col-lg-8">
                             <div class="row">
                                 <div class="col-12 col-md mb-4 mb-md-0">
                                     <h6 class="mb-3 font-weight-bold">Salud Natural del Sur</h6>
