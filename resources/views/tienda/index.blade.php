@@ -277,12 +277,12 @@
 			<div class="row">
 				<div class="col-md-6 mb-3 mb-md-0">
 					<a href="{{ url('/categoria/salud-y-belleza') }}">
-						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+						<img class="img-fluid" src="../../assets/img/690X150/img2.jpg" alt="Adelgaza con reduce extreme">
 					</a>
 				</div>
 				<div class="col-md-6">
 					<a href="{{ url('/categoria/salud-sexual') }}">
-						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Banner Maxman">
 					</a>
 				</div>
 			</div>
