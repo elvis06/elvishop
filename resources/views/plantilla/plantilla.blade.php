@@ -7,7 +7,7 @@
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
         <meta name="keywords" content="adelgazar,reducir,peso,reduce,extreme,maxman,sexual" />
-        <meta name="description" content="Salud Natural del Sur ofrece productos naturales para reducir peso y mejorar el rendimiento sexual. Nuestros productos son: Reduce Extreme, Paizhisu STRONG Version, Meizi Evolution Soft Gel, Garcinia Cambogia Soft Gel, G-Female Oral, Maxman IV, Maxman IX, Maxman XL, African Black Ant, Viagra Vegetal">
+        <meta name="description" content="Salud Natural del Sur ofrece productos naturales para reducir peso y mejorar el rendimiento sexual. Nuestros productos son: Reduce Extreme, Paizhisu STRONG Version, Meizi Evolution Soft Gel, Garcinia Cambogia Soft Gel, G-Female Oral, Maxman IV, Maxman IX, Maxman XL, African Black Ant">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- CSRF Token -->
@@ -139,7 +139,7 @@
                                                 <div class="js-scrollbar u-sidebar__body">
                                                     <div id="headerSidebarContent" class="u-sidebar__content u-header-sidebar__content">
                                                         <!-- Logo -->
-                                                        <a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="../home/index.html" aria-label="Electro">
+                                                        <a class="d-flex ml-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-vertical" href="/" aria-label="Electro">
                                                             <div class="d-flex flex-row align-items-center justify-content-start">
                                                                 <div><img src="{{asset('assets/sndsur.png')}}" alt=""></div>
                                                             </div>
@@ -163,7 +163,7 @@
                                                                 <div id="headerSidebarPagesCollapse" class="collapse" data-parent="#headerSidebarContent">
                                                                     <ul id="headerSidebarPagesMenu" class="u-header-collapse__nav-list">
                                                                         <!-- Product -->
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="garcinia-cambogia-capsulas-doradas">Garcinia Cambogia Capsulas Doradas</a></li>
+                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="garcinia-cambogia-capsulas-doradas">Reduce Extreme</a></li>
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="paizhisu-strong-version">Paizhisu STRONG Versión</a></li>
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="meizi-evolution-soft-gel">Meizi Evolution Soft Gel</a></li>
                                                                         <li><a class="u-header-collapse__submenu-nav-link" href="garcinia-cambogia-soft-gel">Garcinia Cambogia Soft Gel</a></li>
@@ -717,6 +717,30 @@
                                     Calle Cochabamba Nº 947, Tarija - Bolivia
                                 </address>
                             </div>
+                            <div class="my-4 my-md-4">
+                                <ul class="list-inline mb-0 opacity-7">
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-facebook-f btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-google btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-twitter btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-0">
+                                        <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
+                                            <span class="fab fa-instagram btn-icon__inner"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-lg-8">
                             <div class="row">
@@ -745,30 +769,6 @@
                                         <li><a class="list-group-item list-group-item-action" href="{{ url('/sndsur/contactos') }}">Contáctanos</a></li>
                                     </ul>
                                     <!-- End List Group -->
-                                    <div class="my-4 my-md-4">
-                                        <ul class="list-inline mb-0 opacity-7">
-                                            <li class="list-inline-item mr-0">
-                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                                    <span class="fab fa-facebook-f btn-icon__inner"></span>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item mr-0">
-                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                                    <span class="fab fa-google btn-icon__inner"></span>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item mr-0">
-                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                                    <span class="fab fa-twitter btn-icon__inner"></span>
-                                                </a>
-                                            </li>
-                                            <li class="list-inline-item mr-0">
-                                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" href="#">
-                                                    <span class="fab fa-instagram btn-icon__inner"></span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                 </div>
                             
                             </div>
