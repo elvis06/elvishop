@@ -720,7 +720,7 @@
                         </div>
                         <div class="col-lg-8">
                             <div class="row">
-                                <div class="col-12 col-md mb-8 mb-md-0">
+                                <div class="col-8 col-md mb-8 mb-md-0">
                                     <h6 class="mb-3 font-weight-bold">Salud Natural del Sur</h6>
                                     <!-- List Group -->
                                     <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
@@ -729,13 +729,7 @@
                                     <!-- End List Group -->
                                 </div>
 
-                                <div class="col-2">
-                                    <!-- List Group -->
-                                    
-                                    <!-- End List Group -->
-                                </div>
-
-                                <div class="col-12 col-md mb-4 mb-md-0">
+                                <div class="col-4 col-md mb-4 mb-md-0">
                                     <h6 class="mb-3 font-weight-bold">Información</h6>
                                     <!-- List Group -->
                                     <ul class="list-group list-group-flush list-group-borderless mb-0 list-group-transparent">
