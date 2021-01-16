@@ -729,7 +729,7 @@
                                     <!-- End List Group -->
                                 </div>
 
-                                <div class="col-6">
+                                <div class="col-1">
                                     <!-- List Group -->
                                     
                                     <!-- End List Group -->
