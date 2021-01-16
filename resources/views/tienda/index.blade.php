@@ -370,7 +370,7 @@
 				</div>
 				<div class="col-md-4">
 					<a href="{{ url('/categoria/salud-sexual') }}">
-						<img class="img-fluid" src="../../assets/img/690X150/img1.jpg" alt="Image Description">
+						<img class="img-fluid" src="../../assets/img/690X150/productos-garantizados.jpg" alt="Productos garantizados">
 					</a>
 				</div>
 				<div class="col-md-4 mb-3 mb-md-0">
