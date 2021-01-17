@@ -125,7 +125,7 @@
                                         <div class="d-block d-md-flex flex-center-between">
                                             <div class="d-md-flex">
                                                 <a href="/" class="btn btn-soft-secondary mb-3 mb-md-0 font-weight-normal px-5 px-md-4 px-lg-5 w-100 w-md-auto">Seguir comprando</a>
-                                                <a href="#" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-none d-md-inline-block">Continuar</a>
+                                                <a href="https://api.whatsapp.com/send?phone=5493516342592&text=Hola!%0Quiero%20realizar%20el%20siguiente%20pedido!%0{{ number_format($total,2) }}" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-none d-md-inline-block">Realizar pedido</a>
                                             </div>
                                         </div>
                                     </div>
@@ -133,7 +133,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button type="button" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-md-none">Proceed to checkout</button>
+                    <button type="button" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-md-none">Realizar pedido</button>
                 </div>
             </div>
         </div>
