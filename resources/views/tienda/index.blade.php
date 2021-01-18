@@ -32,7 +32,7 @@
 										<sup class="">Bs.</sup>250.00<sup class=""></sup>
 									</div>
 								</div>
-								<a href="{{ route('cart-add', 'garcinia-cambogia-capsulas-doradas') }}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+								<a href="{{ route('cart-add', 'reduce-extreme') }}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
 									data-scs-animation-in="fadeInUp"
 									data-scs-animation-delay="400">
 									Comprar ahora
