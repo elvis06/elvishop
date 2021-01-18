@@ -103,7 +103,7 @@
                             </td>
                         </tr>
                         @php
-                        $productos = $productos . '%0A' . $item->nombre . ' cant.: (' . $item->cant . ')';
+                        $productos = $productos . '%0A' . $item->nombre . ' Cant(' . $item->cant . ') Subtotal(Bs.' . {{number_format($item->precio_actual*$item->cant,2)}};
                         @endphp
                         @endforeach
                     </tbody>
