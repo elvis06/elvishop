@@ -45,7 +45,7 @@
                     </thead>
                     <tbody>
                         @foreach($cart as $item)
-                        {{ $productos = $item->nombre }};
+                        {{ $productos = $producto+'%20'+$item->nombre }};
                         <tr class="">
                             <td class="text-center">
                                 <a href="{{ route('cart-delete', $item->slug) }}" class="text-gray-32 font-size-26">×</a>
