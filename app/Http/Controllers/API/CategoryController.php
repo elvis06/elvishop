@@ -77,12 +77,13 @@ class CategoryController extends Controller
     {
         $productos = Product::all();
         $categoria = Category::where('slug',$slug)->first();
-        $cart = \Session::get('cart');
-        $total = 0;
-        foreach ($cart as $item) {
-            $total += $item->precio_actual * $item->cant;
-        }
         if ($categoria){
+            if(!\Session::has('cart')) \Session::put('cart', array());
+            $cart = \Session::get('cart');
+            $total = 0;
+            foreach ($cart as $item) {
+                $total += $item->precio_actual * $item->cant;
+            }
             return view('tienda.categoria', compact('categoria','productos','cart','total'));
         }else{
             return 'No existe el enlace';
