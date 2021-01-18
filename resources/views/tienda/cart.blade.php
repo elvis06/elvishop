@@ -136,7 +136,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <a href="https://api.whatsapp.com/send?phone=59174505444&text=Hola%20saludnaturaldelsur.com%0AQuiero%20realizar%20el%20siguiente%20pedido:{{$productos}}%0A&#128176;%20*Total:%20Bs.{{number_format($total,2)}}*" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-md-none">Realizar pedido</a>
+                    <a href="https://api.whatsapp.com/send?phone=59174505444&text=Hola%20saludnaturaldelsur.com%0AQuiero%20realizar%20el%20siguiente%20pedido:%0A{{$productos}}%0A&#128176;%20*Total:%20Bs.{{number_format($total,2)}}*" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-md-none">Realizar pedido</a>
                 </div>
             </div>
         </div>
