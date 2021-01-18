@@ -103,7 +103,7 @@
                             </td>
                         </tr>
                         @php
-                        $productos = $productos . '%0A' . $item->nombre;
+                        $productos = $productos . '%0A' . $item->nombre . ' cant.: (' . $item->cant . ')';
                         @endphp
                         @endforeach
                     </tbody>
