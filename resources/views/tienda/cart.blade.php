@@ -45,7 +45,7 @@
                     </thead>
                     <tbody>
                         @foreach($cart as $item)
-                        {{ $productos = $productos . $item->nombre }};
+                        {{ $productos = $productos . '%0' . $item->nombre }};
                         <tr class="">
                             <td class="text-center">
                                 <a href="{{ route('cart-delete', $item->slug) }}" class="text-gray-32 font-size-26">×</a>
@@ -126,7 +126,7 @@
                                         <div class="d-block d-md-flex flex-center-between">
                                             <div class="d-md-flex">
                                                 <a href="/" class="btn btn-soft-secondary mb-3 mb-md-0 font-weight-normal px-5 px-md-4 px-lg-5 w-100 w-md-auto">Seguir comprando</a>
-                                                <a href="https://api.whatsapp.com/send?phone=59174505444&text=Hola%20www.saludnaturaldelsur.com%0Quiero%20realizar%20el%20siguiente%20pedido!%0{{$productos}}{{number_format($total,2)}}" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-none d-md-inline-block">Realizar pedido</a>
+                                                <a href="https://api.whatsapp.com/send?phone=59174505444&text=Hola%20www.saludnaturaldelsur.com%0Quiero%20realizar%20el%20siguiente%20pedido!{{$productos}}%0 Total:%20Bs.{{number_format($total,2)}}" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-none d-md-inline-block">Realizar pedido</a>
                                             </div>
                                         </div>
                                     </div>
