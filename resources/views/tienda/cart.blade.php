@@ -134,7 +134,7 @@
                             </tr>
                         </tbody>
                     </table>
-                    <button type="button" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-md-none">Realizar pedido</button>
+                    <a href="https://api.whatsapp.com/send?phone=59174505444&text=Hola%20www.saludnaturaldelsur.com%0Quiero%20realizar%20el%20siguiente%20pedido!{{$productos}}%0 Total:%20Bs.{{number_format($total,2)}}" class="btn btn-primary-dark-w ml-md-2 px-5 px-md-4 px-lg-5 w-100 w-md-auto d-md-none">Realizar pedido</a>
                 </div>
             </div>
         </div>
