@@ -45,7 +45,6 @@
                     </thead>
                     <tbody>
                         @foreach($cart as $item)
-                        {{ $productos = $productos . '%0A' . $item->nombre }};
                         <tr class="">
                             <td class="text-center">
                                 <a href="{{ route('cart-delete', $item->slug) }}" class="text-gray-32 font-size-26">×</a>
@@ -103,6 +102,9 @@
                                 <span class="">Bs. {{ number_format($item->precio_actual * $item->cant, 2) }}</span>
                             </td>
                         </tr>
+                        @php
+                        $productos = $productos . '%0A>' . $item->nombre . ' cant.: (' . $item->cant . ') Subtotal: Bs. ' . {{ number_format($item->precio_actual * $item->cant, 2) }};
+                        @endphp
                         @endforeach
                     </tbody>
                 </table>
