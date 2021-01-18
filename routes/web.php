@@ -42,6 +42,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/categoria/{slug}', 'API\CategoryController@categoria')->name('categoria');
 Route::get('/{slug}', 'API\ProductController@producto')->name('producto');
 Route::get('/sndsur/contactos', function () {
+    if(!\Session::has('cart')) \Session::put('cart', array());
     $cart = \Session::get('cart');
     $total = 0;
     foreach ($cart as $item) {
@@ -50,6 +51,7 @@ Route::get('/sndsur/contactos', function () {
     return view('tienda.contactos', compact('cart','total'));
 });
 Route::get('/sndsur/sobre-nosotros', function () {
+    if(!\Session::has('cart')) \Session::put('cart', array());
     $cart = \Session::get('cart');
     $total = 0;
     foreach ($cart as $item) {
@@ -58,6 +60,7 @@ Route::get('/sndsur/sobre-nosotros', function () {
     return view('tienda.sobre-nosotros', compact('cart','total'));
 });
 Route::get('/sndsur/condiciones', function () {
+    if(!\Session::has('cart')) \Session::put('cart', array());
     $cart = \Session::get('cart');
     $total = 0;
     foreach ($cart as $item) {
@@ -66,6 +69,7 @@ Route::get('/sndsur/condiciones', function () {
     return view('tienda.condiciones', compact('cart','total'));
 });
 Route::get('/sndsur/trabaja-con-nosotros', function () {
+    if(!\Session::has('cart')) \Session::put('cart', array());
     $cart = \Session::get('cart');
     $total = 0;
     foreach ($cart as $item) {

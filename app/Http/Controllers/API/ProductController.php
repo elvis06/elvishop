@@ -36,6 +36,7 @@ class ProductController extends Controller
         $productos = Product::all();
         $producto = Product::where('slug',$slug)->first();
         if ($producto){
+            if(!\Session::has('cart')) \Session::put('cart', array());
             $cart = \Session::get('cart');
             $total = 0;
             foreach ($cart as $item) {
