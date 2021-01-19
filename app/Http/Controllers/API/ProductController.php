@@ -52,18 +52,15 @@ class ProductController extends Controller
     public function buscar(Request $request)
     {
         $buscar = $request->get('buscar');
+        $categoria = $request->get('categoria');
         $productos = Product::where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
-        dd($productos);
-        if ($categoria){
-            if(!\Session::has('cart')) \Session::put('cart', array());
-            $cart = \Session::get('cart');
-            $total = 0;
-            foreach ($cart as $item) {
-                $total += $item->precio_actual * $item->cant;
-            }
-            return view('tienda.categoria', compact('categoria','productos','cart','total'));
-        }else{
-            return 'No existe el enlace';
+        if(!\Session::has('cart')) \Session::put('cart', array());
+        $cart = \Session::get('cart');
+        $total = 0;
+        foreach ($cart as $item) {
+            $total += $item->precio_actual * $item->cant;
         }
+        return view('tienda.buscar', compact('categoria','productos','cart','total'));
+        
     }
 }
