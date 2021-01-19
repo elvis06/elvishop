@@ -51,7 +51,7 @@ class ProductController extends Controller
     public function buscar(Request $request)
     {
         $prod = $request->buscar;
-        $cat = $request->cat;
+        $cat = $request->categoria;
         $productos = Product::all()->where('products.activo', '=', 'Si')
             ->where('products.'.$cat, 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
         
