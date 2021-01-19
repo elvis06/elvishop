@@ -49,7 +49,7 @@ class ProductController extends Controller
         }
     }
     //Buscar Productos
-    public function buscar(Request $request)
+    /*public function buscar(Request $request)
     {
         $prod = $request->buscar;
         $cat = $request->cat;
@@ -67,5 +67,5 @@ class ProductController extends Controller
         }else{
             return 'No existe el enlace';
         }
-    }
+    }*/
 }
