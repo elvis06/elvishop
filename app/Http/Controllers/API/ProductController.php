@@ -49,7 +49,7 @@ class ProductController extends Controller
         }
     }
     //Buscar Productos
-    public function buscar($categoria,$buscar)
+    public function buscar(Request $request)
     {
         $productos = Product::all()->where('products.activo', '=', 'Si')
             ->where('products.'.$categoria, 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
