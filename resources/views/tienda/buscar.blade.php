@@ -58,7 +58,7 @@
             <div class="col-xl-9 col-wd-9gdot5">
                 <!-- Shop-control-bar Title -->
                 <div class="d-block d-md-flex flex-center-between mb-3">
-                    <h3 class="font-size-25 mb-2 mb-md-0"><span class="fab fa-search mr-1"></span>{{ $buscar }}</h3>
+                    <h3 class="font-size-25 mb-2 mb-md-0"><i class="ec ec-search font-size-40"></i>{{ $buscar }}</h3>
                 </div>
                 <!-- End shop-control-bar Title -->
                 <!-- Shop Body -->
