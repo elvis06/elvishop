@@ -53,7 +53,7 @@ class ProductController extends Controller
         $prod = $request->buscar;
         $cat = $request->categoria;
         $productos = Product::all()->where('products.activo', '=', 'Si')
-            ->where('products.'.$cat, 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
+            ->where('products.nombre', 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
         
         if(!\Session::has('cart')) \Session::put('cart', array());
         $cart = \Session::get('cart');
