@@ -52,8 +52,9 @@ class ProductController extends Controller
     public function buscar(Request $request)
     {
         $buscar = $request->get('buscar');
-        $categoria = $request->get('categoria');
+        $cat = $request->get('cat');
         $productos = Product::where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
+        $categoria = Category::where('slug',$cat)->first();
         if(!\Session::has('cart')) \Session::put('cart', array());
         $cart = \Session::get('cart');
         $total = 0;
