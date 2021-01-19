@@ -11,7 +11,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-3 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
                         <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="/">Inicio</a></li>
-                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">{{ $buscar }}}</li>
+                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Búsqueda</li>
                     </ol>
                 </nav>
             </div>
@@ -25,7 +25,7 @@
             <div class="d-none d-xl-block col-xl-3 col-wd-2gdot5">
                 <aside class="mb-7">
                     <div class="border-bottom border-color-1 mb-5">
-                        <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{ $categoria->nombre }}</h3>
+                        <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{ $buscar }}</h3>
                     </div>
                     <div class="list-group">
                         @foreach($productos as $p)

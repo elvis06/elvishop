@@ -450,7 +450,7 @@
                                 @csrf
                                     <label class="sr-only" for="searchProduct">Buscar</label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control py-2 pl-5 font-size-15 border-0 height-40 rounded-left-pill" name="buscar" id="searchProduct" placeholder="Busca productos" aria-label="Search for Products" aria-describedby="searchProduct1" value="{{old('name')}}" required>
+                                        <input type="text" class="form-control py-2 pl-5 font-size-15 border-0 height-40 rounded-left-pill" name="buscar" id="searchProduct" placeholder="Busca productos" aria-label="Search for Products" aria-describedby="searchProduct1" value="@if($buscar) {{$buscar}} @endif" required>
                                         <div class="input-group-append">
                                             <!-- Select -->
                                             <select name="cat" class="js-select selectpicker dropdown-select custom-search-categories-select"
