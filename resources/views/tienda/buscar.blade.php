@@ -58,8 +58,7 @@
             <div class="col-xl-9 col-wd-9gdot5">
                 <!-- Shop-control-bar Title -->
                 <div class="d-block d-md-flex flex-center-between mb-3">
-                    <h3 class="font-size-25 mb-2 mb-md-0">{{ $categoria->nombre }}</h3>
-                    <p class="font-size-14 text-gray-90 mb-0">{{ $categoria->descripcion }}</p>
+                    <h3 class="font-size-25 mb-2 mb-md-0">{{ $buscar }}</h3>
                 </div>
                 <!-- End shop-control-bar Title -->
                 <!-- Shop Body -->
