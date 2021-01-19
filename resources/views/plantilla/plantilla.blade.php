@@ -446,7 +446,8 @@
                             <!-- Search bar -->
                             <div class="col align-self-center">
                                 <!-- Search-Form -->
-                                <form class="js-focus-state">
+                                <form action="{{route('tienda.buscar')}}" method="GET" class="js-focus-state">
+                                @csrf
                                     <label class="sr-only" for="searchProduct">Buscar</label>
                                     <div class="input-group">
                                         <input type="email" class="form-control py-2 pl-5 font-size-15 border-0 height-40 rounded-left-pill" name="email" id="searchProduct" placeholder="Busca productos" aria-label="Search for Products" aria-describedby="searchProduct1" required>
@@ -463,7 +464,7 @@
                                                 <option value="salud-sexual">Salud Sexual</option>
                                             </select>
                                             <!-- End Select -->
-                                            <button class="btn btn-dark height-40 py-2 px-3 rounded-right-pill" type="button" id="searchProduct1">
+                                            <button class="btn btn-dark height-40 py-2 px-3 rounded-right-pill" type="submit" id="searchProduct1">
                                                 <span class="ec ec-search font-size-24"></span>
                                             </button>
                                         </div>
