@@ -57,7 +57,7 @@ class ProductController extends Controller
         if($cat == '0'){
             $prod = Product::where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
         }else{
-            $productos = Product::where('products.category_id',$categoria->id)->where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
+            $prod = Product::where('products.category_id',$categoria->id)->where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
         }
         if(!\Session::has('cart')) \Session::put('cart', array());
         $cart = \Session::get('cart');
