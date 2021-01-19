@@ -4,7 +4,6 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Category;
 use App\Product;
 use App\Image;
 use Illuminate\Support\Facades\File;
@@ -49,13 +48,12 @@ class ProductController extends Controller
         }
     }
     //Buscar Productos
-    /*public function buscar(Request $request)
+    public function buscar(Request $request)
     {
         $prod = $request->buscar;
         $cat = $request->cat;
         $productos = Product::all()->where('products.activo', '=', 'Si')
             ->where('products.'.$cat, 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
-        $categoria = Category::where('slug',$cat)->first();
         if ($categoria){
             if(!\Session::has('cart')) \Session::put('cart', array());
             $cart = \Session::get('cart');
@@ -67,5 +65,5 @@ class ProductController extends Controller
         }else{
             return 'No existe el enlace';
         }
-    }*/
+    }
 }
