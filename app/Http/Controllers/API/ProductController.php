@@ -49,7 +49,7 @@ class ProductController extends Controller
         }
     }
     //Buscar Productos
-    public function buscar(Request $request)
+    /*public function buscar(Request $request)
     {
         $buscar = $request->get('buscar');
         $cat = $request->get('cat');
@@ -66,5 +66,5 @@ class ProductController extends Controller
             $total += $item->precio_actual * $item->cant;
         }
         return view('tienda.buscar', compact('categoria','productos','cart','total','buscar'));
-    }
+    }*/
 }
