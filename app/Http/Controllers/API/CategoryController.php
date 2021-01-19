@@ -89,4 +89,5 @@ class CategoryController extends Controller
             return 'No existe el enlace';
         }
     }
+    
 }

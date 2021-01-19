@@ -4,6 +4,7 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Category;
 use App\Product;
 use App\Image;
 use Illuminate\Support\Facades\File;
@@ -43,6 +44,26 @@ class ProductController extends Controller
                 $total += $item->precio_actual * $item->cant;
             }
             return view('tienda.producto', compact('producto','productos','cart','total'));
+        }else{
+            return 'No existe el enlace';
+        }
+    }
+    //Buscar Productos
+    public function buscar(Request $request)
+    {
+        $prod = $request->buscar;
+        $cat = $request->cat;
+        $productos = Product::all()->where('products.activo', '=', 'Si')
+            ->where('products.'.$cat, 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
+        $categoria = Category::where('slug',$cat)->first();
+        if ($categoria){
+            if(!\Session::has('cart')) \Session::put('cart', array());
+            $cart = \Session::get('cart');
+            $total = 0;
+            foreach ($cart as $item) {
+                $total += $item->precio_actual * $item->cant;
+            }
+            return view('tienda.categoria', compact('categoria','productos','cart','total'));
         }else{
             return 'No existe el enlace';
         }
