@@ -54,6 +54,7 @@ class ProductController extends Controller
         $buscar = $request->get('buscar');
         $cat = $request->get('cat');
         $categoria = Category::where('slug',$cat)->first();
+        $productos = Product::all();
         if($cat == '0'){
             $prod = Product::where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
         }else{
