@@ -77,7 +77,6 @@
                                         </div>
                                         <div class="product-item__body col-6 col-md-5">
                                             <div class="pr-lg-10">
-                                                <div class="mb-2"><a href="{{ url('/categoria/'.$categoria->slug) }}" class="font-size-12 text-gray-5">{{ $categoria->nombre }}</a></div>
                                                 <h5 class="mb-2 product-item__title"><a href="{{ url($producto->slug) }}" class="text-blue font-weight-bold">{{ $producto->nombre }}</a></h5>
                                                 <div class="prodcut-price mb-2 d-md-none">
                                                     <div class="text-gray-100">Bs. {{ $producto->precio_actual }}</div>
