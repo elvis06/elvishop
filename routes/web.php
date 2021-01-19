@@ -102,4 +102,4 @@ Route::get('cart/delete/{product}', 'CartController@delete')->name('cart-delete'
 Route::get('cart/trash', 'CartController@trash')->name('cart-trash');
 Route::get('cart/update/{product}/{cantidad}', 'CartController@update')->name('cart-update');
 
-Route::get('buscar', 'API\ProductController@buscar')->name('buscar');
+Route::put('buscar', 'API\ProductController@buscar')->name('buscar');
