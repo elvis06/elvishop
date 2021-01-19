@@ -65,6 +65,6 @@ class ProductController extends Controller
         foreach ($cart as $item) {
             $total += $item->precio_actual * $item->cant;
         }
-        return view('tienda.buscar', compact('prod','productos','cart','total','buscar'));
+        return view('tienda.buscar', compact('categoria','prod','productos','cart','total','buscar'));
     }
 }
