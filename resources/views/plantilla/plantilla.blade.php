@@ -450,10 +450,10 @@
                                 @csrf
                                     <label class="sr-only" for="searchProduct">Buscar</label>
                                     <div class="input-group">
-                                        <input type="email" class="form-control py-2 pl-5 font-size-15 border-0 height-40 rounded-left-pill" name="email" id="searchProduct" placeholder="Busca productos" aria-label="Search for Products" aria-describedby="searchProduct1" required>
+                                        <input type="text" class="form-control py-2 pl-5 font-size-15 border-0 height-40 rounded-left-pill" name="buscar" id="searchProduct" placeholder="Busca productos" aria-label="Search for Products" aria-describedby="searchProduct1" required>
                                         <div class="input-group-append">
                                             <!-- Select -->
-                                            <select class="js-select selectpicker dropdown-select custom-search-categories-select"
+                                            <select class="js-select selectpicker dropdown-select custom-search-categories-select" name="categoria"
                                                 data-style="btn height-40 text-gray-60 font-weight-normal border-0 rounded-0 bg-white px-5 py-2">
                                                 <option value="0" selected>Todas las categorias</option>
                                                 <option value="salud-y-belleza">Bajar de peso</option>
