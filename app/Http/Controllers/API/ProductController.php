@@ -53,15 +53,18 @@ class ProductController extends Controller
     {
         $buscar = $request->get('buscar');
         $cat = $request->get('cat');
-        $productos = Product::where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
-        $categoria = Category::where('slug',$cat)->first();
+        if($cat == '0'){
+            $productos = Product::where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
+        }else{
+            $categoria = Category::where('slug',$cat)->first();
+            $productos = Product::where('productos.category_id',$categoria->id)->where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
+        }
         if(!\Session::has('cart')) \Session::put('cart', array());
         $cart = \Session::get('cart');
         $total = 0;
         foreach ($cart as $item) {
             $total += $item->precio_actual * $item->cant;
         }
-        return view('tienda.buscar', compact('categoria','productos','cart','total'));
-        
+        return view('tienda.buscar', compact('categoria','productos','cart','total','buscar'));
     }
 }
