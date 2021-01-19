@@ -48,7 +48,7 @@ class ProductController extends Controller
         }
     }
     //Buscar Productos
-    public function buscar(Request $request)
+    /*public function buscar(Request $request)
     {
         $buscar = $request->buscar();
         $productos = Product::all()->where('products.activo', 'Si')
@@ -62,5 +62,5 @@ class ProductController extends Controller
         }
         return view('tienda.buscar', compact('productos','cart','total'));
         
-    }
+    }*/
 }
