@@ -463,7 +463,7 @@
                                                 <option value="salud-sexual">Salud Sexual</option>
                                             </select>
                                             <!-- End Select -->
-                                            <button class="btn btn-dark height-40 py-2 px-3 rounded-right-pill" type="submit" id="searchProduct1">
+                                            <button class="btn btn-dark height-40 py-2 px-3 rounded-right-pill" type="button" id="searchProduct1">
                                                 <span class="ec ec-search font-size-24"></span>
                                             </button>
                                         </div>
