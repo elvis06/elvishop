@@ -447,7 +447,6 @@
                             <div class="col align-self-center">
                                 <!-- Search-Form -->
                                 <form action="{{route('buscar')}}" method="GET" class="js-focus-state">
-                                @csrf
                                     <label class="sr-only" for="searchProduct">Buscar</label>
                                     <div class="input-group">
                                         <input type="text" class="form-control py-2 pl-5 font-size-15 border-0 height-40 rounded-left-pill" name="buscar" id="searchProduct" placeholder="Busca productos" aria-label="Search for Products" aria-describedby="searchProduct1" required>
