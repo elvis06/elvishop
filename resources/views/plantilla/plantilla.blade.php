@@ -446,7 +446,7 @@
                             <!-- Search bar -->
                             <div class="col align-self-center">
                                 <!-- Search-Form -->
-                                <form action="{{route('buscar')}}" method="GET" class="js-focus-state">
+                                <form class="js-focus-state">
                                 @csrf
                                     <label class="sr-only" for="searchProduct">Buscar</label>
                                     <div class="input-group">
