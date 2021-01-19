@@ -49,12 +49,11 @@ class ProductController extends Controller
         }
     }
     //Buscar Productos
-    /*public function buscar(Request $request)
+    public function buscar(Request $request)
     {
-        $prod = $request->buscar;
-        $cat = $request->cat;
-        $productos = Product::all()->where('products.activo', '=', 'Si')
-            ->where('products.'.$cat, 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
+        $buscar = $request->get('buscar');
+        $productos = Product::all()->where('products.activo', 'Si')
+            ->where('products.nombre', 'like', '%'.$buscar.'%')->orderBy('products.id', 'asc')->get();
         if ($categoria){
             if(!\Session::has('cart')) \Session::put('cart', array());
             $cart = \Session::get('cart');
@@ -66,5 +65,5 @@ class ProductController extends Controller
         }else{
             return 'No existe el enlace';
         }
-    }*/
+    }
 }
