@@ -53,10 +53,10 @@ class ProductController extends Controller
     {
         $buscar = $request->get('buscar');
         $cat = $request->get('cat');
+        $categoria = Category::where('slug',$cat)->first();
         if($cat == '0'){
             $productos = Product::where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
         }else{
-            $categoria = Category::where('slug',$cat)->first();
             $productos = Product::where('products.category_id',$categoria->id)->where('products.nombre', 'like', '%'.$buscar.'%')->paginate(10);
         }
         if(!\Session::has('cart')) \Session::put('cart', array());
