@@ -23,18 +23,6 @@
     <div class="container">
         <div class="row mb-8">
             <div class="d-none d-xl-block col-xl-3 col-wd-2gdot5">
-                <aside class="mb-7">
-                    <div class="border-bottom border-color-1 mb-5">
-                        <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">{{ $buscar }}</h3>
-                    </div>
-                    <div class="list-group">
-                        @foreach($productos as $p)
-                        @if($p->category->nombre == $categoria->nombre)
-                        <a href="{{url($p->slug)}}" class="font-bold-on-hover px-3 py-2 list-group-item list-group-item-action border-right-0 border-left-0 border-bottom-0"><i class="mr-2 fas fa-angle-right"></i> {{ $p->nombre }}</a>
-                        @endif
-                        @endforeach
-                    </div>
-                </aside>
                 <div class="mb-8">
                     <div class="border-bottom border-color-1 mb-5">
                         <h3 class="section-title section-title__sm mb-0 pb-2 font-size-18">Más Productos</h3>
@@ -79,7 +67,7 @@
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade pt-2 show active" id="pills-three-example1" role="tabpanel" aria-labelledby="pills-three-example1-tab" data-target-group="groups">
                         <ul class="d-block list-unstyled products-group prodcut-list-view">
-                            @foreach($categoria->products as $producto)
+                            @foreach($prod as $producto)
                             <li class="product-item remove-divider">
                                 <div class="product-item__outer w-100">
                                     <div class="product-item__inner remove-prodcut-hover py-4 row">
